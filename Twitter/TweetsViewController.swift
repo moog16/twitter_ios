@@ -11,6 +11,7 @@ import UIKit
 class TweetsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     var tweets: [Tweet]?
+    var refreshControlTableView: UIRefreshControl!
     @IBOutlet weak var tweetsTableView: UITableView!
     
     override func viewDidLoad() {
@@ -20,15 +21,26 @@ class TweetsViewController: UIViewController, UITableViewDataSource, UITableView
         tweetsTableView.rowHeight = UITableViewAutomaticDimension
         tweetsTableView.estimatedRowHeight = 100
         
-        TwitterClient.sharedInstance.rateLimitWithParams()
-        TwitterClient.sharedInstance.homeTimeineWithParams(nil) { (tweets, error) -> () in
-            self.tweets = tweets
-            self.tweetsTableView.reloadData()
-        }
+        refreshControlTableView = UIRefreshControl()
+        refreshControlTableView.addTarget(self, action: "onRefresh", forControlEvents: UIControlEvents.ValueChanged)
+        tweetsTableView.insertSubview(refreshControlTableView, atIndex: 0)
+        
+        getHomeTimeline(nil)
     }
 
     @IBAction func onSignOut(sender: UIBarButtonItem) {
         User.currentUser?.logout()
+    }
+    
+    func getHomeTimeline(completion:(()->())?) {
+        TwitterClient.sharedInstance.rateLimitWithParams()
+        TwitterClient.sharedInstance.homeTimelineWithParams(nil) { (tweets, error) -> () in
+            self.tweets = tweets
+            self.tweetsTableView.reloadData()
+            if completion != nil {
+                completion!()
+            }
+        }
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
@@ -40,6 +52,12 @@ class TweetsViewController: UIViewController, UITableViewDataSource, UITableView
             return tweets.count
         }
         return 0
+    }
+    
+    func onRefresh() {
+        getHomeTimeline() {
+            self.refreshControlTableView.endRefreshing()
+        }
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
