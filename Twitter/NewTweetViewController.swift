@@ -9,16 +9,18 @@
 import UIKit
 
 class NewTweetViewController: UIViewController {
-
+    @IBOutlet weak var userAvatarImageView: UIImageView!
+    @IBOutlet weak var userScreenNameLabel: UILabel!
+    @IBOutlet weak var userNameLabel: UILabel!
+    @IBOutlet weak var newTweetTextView: UITextView!
+    var currentUser = User.currentUser!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        let avatarUrl = NSURL(string: currentUser.profileImageUrl!)
+        userNameLabel.text = currentUser.name
+        userScreenNameLabel.text = "@\(currentUser.screenname)"
+        userAvatarImageView.setImageWithURL(avatarUrl!)
     }
     
 

@@ -31,7 +31,9 @@ class User: NSObject {
             self.tagline = tagline as? String
         }
         if let profileImageUrl = dictionary["profile_image_url"] {
-            self.profileImageUrl = profileImageUrl as? String
+            self.profileImageUrl = (profileImageUrl as!String).stringByReplacingOccurrencesOfString("_normal.", withString: "_bigger.")
+
+            print("url: \(self.profileImageUrl) \n")
         }
     }
     
