@@ -30,7 +30,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Twitter" id="gtN-4I-m7L"/>
                     <connections>
-                        <segue destination="5Pf-Zo-AeF" kind="show" identifier="loginSegue" id="dpE-Ef-5Ph"/>
+                        <segue destination="qUm-aU-vhD" kind="show" identifier="loginSegue" id="mOD-Io-yTg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -186,7 +186,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="61i-4E-ja6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2671" y="138"/>
+            <point key="canvasLocation" x="3483" y="138"/>
         </scene>
         <!--New Tweet View Controller-->
         <scene sceneID="SpA-AE-MIV">
@@ -241,6 +241,7 @@
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="15B-Ad-TvU" firstAttribute="top" secondItem="FWB-zM-fXx" secondAttribute="bottom" constant="8" id="A5h-dU-vyL"/>
                             <constraint firstItem="siQ-ac-FMP" firstAttribute="top" secondItem="15B-Ad-TvU" secondAttribute="bottom" constant="8" id="TOn-ZX-0Cp"/>
@@ -260,7 +261,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bbC-fJ-1B6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3376" y="122"/>
+            <point key="canvasLocation" x="4226" y="-136"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="AVj-B6-U8e">
@@ -280,6 +281,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ckq-tI-EX8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1175" y="138"/>
+        </scene>
+        <!--TweetsNavigationController-->
+        <scene sceneID="Ihl-p4-bJc">
+            <objects>
+                <navigationController title="TweetsNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="qUm-aU-vhD" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="y3y-S2-EYB">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.33333333333333331" green="0.67450980392156867" blue="0.93333333333333335" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="5Pf-Zo-AeF" kind="relationship" relationship="rootViewController" id="Vcz-Jc-gUN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fAb-7r-uIn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2671" y="138"/>
         </scene>
     </scenes>
     <resources>

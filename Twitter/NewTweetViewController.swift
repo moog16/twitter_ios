@@ -19,7 +19,7 @@ class NewTweetViewController: UIViewController {
         super.viewDidLoad()
         let avatarUrl = NSURL(string: currentUser.profileImageUrl!)
         userNameLabel.text = currentUser.name
-        userScreenNameLabel.text = "@\(currentUser.screenname)"
+        userScreenNameLabel.text = "@\(currentUser.screenname!)"
         userAvatarImageView.setImageWithURL(avatarUrl!)
     }
     
