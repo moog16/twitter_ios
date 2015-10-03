@@ -16,11 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        if User.currentUser != nil {
-            print("currnet user detected")
-            let vc = storyboard.instantiateViewControllerWithIdentifier("TweetsViewController")
-            window?.rootViewController = vc
-        }
+//        if User.currentUser != nil {
+//            print("current user detected")
+//            let vc = storyboard.instantiateViewControllerWithIdentifier("TweetsViewController")
+//            window?.rootViewController = vc
+//        }
 
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "userDidLogout", name: userDidLogoutNotification, object: nil)
         return true
