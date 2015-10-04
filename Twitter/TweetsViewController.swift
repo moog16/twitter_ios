@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TweetsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class TweetsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, NewTweetViewControllerDelegate {
     
     var tweets: [Tweet]?
     var refreshControlTableView: UIRefreshControl!
@@ -45,6 +45,7 @@ class TweetsViewController: UIViewController, UITableViewDataSource, UITableView
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         tweetsTableView.deselectRowAtIndexPath(indexPath, animated: true)
+        
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -66,6 +67,23 @@ class TweetsViewController: UIViewController, UITableViewDataSource, UITableView
         cell.tweet = tweets?[indexPath.row]
         
         return cell
+    }
+    
+    func newTweetViewController(newTweetViewController: NewTweetViewController, didTweet tweet: Tweet) {
+        tweets?.insertContentsOf(tweet, at: 0)
+        self.tweetsTableView.reloadData()
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if sender is TweetCell {
+            let cell = sender as! TweetCell
+            let tweetViewController = segue.destinationViewController as! TweetViewController
+            let indexPath = tweetsTableView.indexPathForCell(cell)
+            tweetViewController.tweet = tweetsTableView.cellForRowAtIndexPath(indexPath)
+        } else {
+            let newTweetController = segue.destinationViewController as! NewTweetViewController
+            newTweetController.delegate = self
+        }
     }
     
 }

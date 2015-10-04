@@ -15,6 +15,8 @@ class Tweet: NSObject {
     var createdAt: NSDate?
     var timeSince: String?
     var favoriteCount: Int?
+    var retweeted: Bool?
+    var userRetweet: User?
     
     init(dictionary: NSDictionary) {
         super.init()
@@ -22,6 +24,12 @@ class Tweet: NSObject {
         createdAtString = dictionary["created_at"] as? String
         text = dictionary["text"] as? String
         favoriteCount = dictionary["favorite_count"] as? Int
+        retweeted = dictionary["retweeted"] as? Bool
+        
+        if let userRetweet = dictionary["current_user_retweet"] {
+            self.userRetweet = userRetweet as? User
+            print(self.userRetweet!.name)
+        }
         
         if let createdAtStr = createdAtString {
             createdAt = getDateFromString(createdAtStr)

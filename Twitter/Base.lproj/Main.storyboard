@@ -97,7 +97,7 @@
                                                         <constraint firstAttribute="width" constant="50" id="UTI-tF-nN4"/>
                                                     </constraints>
                                                 </imageView>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="retweet" translatesAutoresizingMaskIntoConstraints="NO" id="f5v-er-7fE">
+                                                <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="retweet" translatesAutoresizingMaskIntoConstraints="NO" id="f5v-er-7fE">
                                                     <rect key="frame" x="45" y="8" width="13" height="13"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="13" id="2zb-qn-1Qz"/>
@@ -150,9 +150,11 @@
                                             <outlet property="avatarImage" destination="ZMq-cF-teU" id="RtG-Lp-OsO"/>
                                             <outlet property="messageLabel" destination="o5y-1a-BO2" id="UfQ-uj-bIZ"/>
                                             <outlet property="nameLabel" destination="qjJ-1o-F8n" id="URl-EL-LmY"/>
+                                            <outlet property="retweetImageView" destination="f5v-er-7fE" id="fX6-8z-oIj"/>
                                             <outlet property="retweetedLabel" destination="HRh-HV-2tt" id="JtT-A3-ale"/>
                                             <outlet property="timeLabel" destination="UCZ-gU-rda" id="s5T-wj-OP9"/>
                                             <outlet property="usernameLabel" destination="vCP-h9-PM0" id="diq-TA-cuO"/>
+                                            <segue destination="3mB-Dq-dqt" kind="show" id="cx8-gw-hTA"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -262,6 +264,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bbC-fJ-1B6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4226" y="-136"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="dH3-gj-VdW">
+            <objects>
+                <viewController id="3mB-Dq-dqt" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EOV-q5-Bf3"/>
+                        <viewControllerLayoutGuide type="bottom" id="xxH-z8-Kr4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bTg-nk-DDa">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Uxz-w5-idf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4226" y="562"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="AVj-B6-U8e">

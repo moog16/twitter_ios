@@ -8,12 +8,17 @@
 
 import UIKit
 
+@objc protocol NewTweetViewControllerDelegate {
+    optional func newTweetViewController(newTweetViewController: NewTweetViewController, didTweet tweet: Tweet)
+}
+
 class NewTweetViewController: UIViewController {
     @IBOutlet weak var userAvatarImageView: UIImageView!
     @IBOutlet weak var userScreenNameLabel: UILabel!
     @IBOutlet weak var userNameLabel: UILabel!
     @IBOutlet weak var newTweetTextView: UITextView!
     var currentUser = User.currentUser!
+    weak var delegate: NewTweetViewControllerDelegate?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,17 +26,31 @@ class NewTweetViewController: UIViewController {
         userNameLabel.text = currentUser.name
         userScreenNameLabel.text = "@\(currentUser.screenname!)"
         userAvatarImageView.setImageWithURL(avatarUrl!)
+        
+        navigationController?.navigationBar.tintColor = UIColor.whiteColor()
+        setupTweetBarButton()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func setupTweetBarButton() {
+        let tweetButton = UIBarButtonItem(title: "Tweet", style: UIBarButtonItemStyle.Plain, target: nil, action: "sendTweet")
+        navigationItem.rightBarButtonItem = tweetButton
     }
-    */
+    
+    func sendTweet() {
+        guard newTweetTextView.text.characters.count <= 0 else {
+            let params = ["status": newTweetTextView.text]
+            TwitterClient.sharedInstance.tweetMessageWithParams(params) {
+                (tweet: Tweet?, error: NSError?) -> Void in
+                if error != nil {
+                    print("error sending tweet \(error)")
+                } else {
+                    self.delegate?.newTweetViewController?(self, didTweet: tweet!)
+                    self.navigationController?.popViewControllerAnimated(true)
+                }
+            }
+            return
+        }
+    }
 
 }
+

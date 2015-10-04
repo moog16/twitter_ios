@@ -34,9 +34,8 @@ class TwitterClient: BDBOAuth1RequestOperationManager {
     func homeTimelineWithParams(params: NSDictionary?, completion: (tweets: [Tweet]?, error: NSError?) -> ()) {
         GET("1.1/statuses/home_timeline.json", parameters: params, success:
                 { (operation: AFHTTPRequestOperation!, response: AnyObject!) -> Void in
-//                    print("\(response as! [[String: String]])")
                 let tweets = Tweet.tweetsWithArray(response as! [NSDictionary])
-                    
+                    print("\(response)")
                 completion(tweets: tweets, error: nil)
         }) { (operation: AFHTTPRequestOperation!, error: NSError!) -> Void in
             completion(tweets: nil, error: error)
@@ -50,6 +49,15 @@ class TwitterClient: BDBOAuth1RequestOperationManager {
                 print("\(response)")
         }) { (operation: AFHTTPRequestOperation!, error: NSError!) -> Void in
                 print("error from rate limiter \(error)")
+        }
+    }
+    
+    func tweetMessageWithParams(params: NSDictionary?, completion: (tweet: Tweet?, error: NSError?) -> ()) {
+        POST("1.1/statuses/update.json", parameters: params, success: { (operation: AFHTTPRequestOperation!, response: AnyObject!) -> Void in
+                let tweet = Tweet(dictionary: response as! NSDictionary)
+                completion(tweet: tweet, error: nil)
+            }) { (operation: AFHTTPRequestOperation!, error:NSError!) -> Void in
+                completion(tweet: nil, error: error)
         }
     }
     
