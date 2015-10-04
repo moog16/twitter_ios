@@ -1,0 +1,3531 @@
+ [
+  {
+  "created_at": "Sun Oct 04 21:44:41 +0000 2015",
+  "id": 650788655108366340,
+  "id_str": "650788655108366340",
+  "text": "More police actively avoid naming suspects in mass shootings: http://t.co/rSRuRQ05o6",
+  "source": "<a href=\"http://www.socialflow.com\" rel=\"nofollow\">SocialFlow</a>",
+  "truncated": false,
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+  "id": 3108351,
+  "id_str": "3108351",
+  "name": "Wall Street Journal",
+  "screen_name": "WSJ",
+  "location": "New York, NY",
+  "description": "Breaking news and features from the WSJ. Tweets by @allisonlichter @sarahmarshall @toddjolmstead @erinclarebrown @LaurenceWSJ and @carlazanoni.",
+  "url": "http://t.co/GhhR6Q2Qmq",
+  "entities": {
+  "url": {
+  "urls": [
+           {
+           "url": "http://t.co/GhhR6Q2Qmq",
+           "expanded_url": "http://wsj.com",
+           "display_url": "wsj.com",
+           "indices": [
+                       0,
+                       22
+                       ]
+           }
+           ]
+  },
+  "description": {
+  "urls": [
+  
+  ]
+  }
+  },
+  "protected": false,
+  "followers_count": 7631882,
+  "friends_count": 1019,
+  "listed_count": 92048,
+  "created_at": "Sun Apr 01 06:22:13 +0000 2007",
+  "favourites_count": 1270,
+  "utc_offset": -14400,
+  "time_zone": "Eastern Time (US & Canada)",
+  "geo_enabled": true,
+  "verified": true,
+  "statuses_count": 132069,
+  "lang": "en",
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": true,
+  "profile_background_color": "EDF2F5",
+  "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000026078008/c07ad7d60f01c3a836dd701fc3f71233.jpeg",
+  "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000026078008/c07ad7d60f01c3a836dd701fc3f71233.jpeg",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/550753086814162945/NF0P32Dg_normal.jpeg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/550753086814162945/NF0P32Dg_normal.jpeg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/3108351/1432072212",
+  "profile_link_color": "1164B8",
+  "profile_sidebar_border_color": "FFFFFF",
+  "profile_sidebar_fill_color": "EFEFEF",
+  "profile_text_color": "333333",
+  "profile_use_background_image": false,
+  "has_extended_profile": false,
+  "default_profile": false,
+  "default_profile_image": false,
+  "following": true,
+  "follow_request_sent": false,
+  "notifications": false
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 0,
+  "favorite_count": 1,
+  "entities": {
+  "hashtags": [
+  
+  ],
+  "symbols": [
+  
+  ],
+  "user_mentions": [
+  
+  ],
+  "urls": [
+           {
+           "url": "http://t.co/rSRuRQ05o6",
+           "expanded_url": "http://on.wsj.com/1ORctkr",
+           "display_url": "on.wsj.com/1ORctkr",
+           "indices": [
+                       62,
+                       84
+                       ]
+           }
+           ]
+  },
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+  },
+  {
+  "created_at": "Sun Oct 04 21:44:32 +0000 2015",
+  "id": 650788619574095872,
+  "id_str": "650788619574095872",
+  "text": "Cairo Santos: Fantasy Legend. #HaveADayKicker #KCvsCIN http://t.co/EnaYH0CGPV",
+  "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+  "truncated": false,
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+  "id": 19426551,
+  "id_str": "19426551",
+  "name": "NFL",
+  "screen_name": "NFL",
+  "location": "",
+  "description": "Official Twitter account of the National Football League.",
+  "url": "http://t.co/vIikzemJNp",
+  "entities": {
+  "url": {
+  "urls": [
+           {
+           "url": "http://t.co/vIikzemJNp",
+           "expanded_url": "http://www.nfl.com",
+           "display_url": "nfl.com",
+           "indices": [
+                       0,
+                       22
+                       ]
+           }
+           ]
+  },
+  "description": {
+  "urls": [
+  
+  ]
+  }
+  },
+  "protected": false,
+  "followers_count": 13465011,
+  "friends_count": 1965,
+  "listed_count": 42128,
+  "created_at": "Sat Jan 24 01:28:06 +0000 2009",
+  "favourites_count": 1136,
+  "utc_offset": -14400,
+  "time_zone": "Eastern Time (US & Canada)",
+  "geo_enabled": true,
+  "verified": true,
+  "statuses_count": 102234,
+  "lang": "en",
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "FFFFFF",
+  "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/783952246/66e217ec60a9c3c977295fb8b7ae1601.jpeg",
+  "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/783952246/66e217ec60a9c3c977295fb8b7ae1601.jpeg",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/649557597557665792/umjpf1U9_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/649557597557665792/umjpf1U9_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/19426551/1430162479",
+  "profile_link_color": "0084B4",
+  "profile_sidebar_border_color": "FFFFFF",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": false,
+  "default_profile_image": false,
+  "following": true,
+  "follow_request_sent": false,
+  "notifications": false
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 20,
+  "favorite_count": 25,
+  "entities": {
+  "hashtags": [
+               {
+               "text": "HaveADayKicker",
+               "indices": [
+                           30,
+                           45
+                           ]
+               },
+               {
+               "text": "KCvsCIN",
+               "indices": [
+                           46,
+                           54
+                           ]
+               }
+               ],
+  "symbols": [
+  
+  ],
+  "user_mentions": [
+  
+  ],
+  "urls": [
+  
+  ],
+  "media": [
+            {
+            "id": 650788221195038721,
+            "id_str": "650788221195038721",
+            "indices": [
+                        55,
+                        77
+                        ],
+            "media_url": "http://pbs.twimg.com/media/CQgQcGxWsAEYYur.png",
+            "media_url_https": "https://pbs.twimg.com/media/CQgQcGxWsAEYYur.png",
+            "url": "http://t.co/EnaYH0CGPV",
+            "display_url": "pic.twitter.com/EnaYH0CGPV",
+            "expanded_url": "http://twitter.com/NFL/status/650788619574095872/photo/1",
+            "type": "photo",
+            "sizes": {
+            "small": {
+            "w": 340,
+            "h": 340,
+            "resize": "fit"
+            },
+            "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+            },
+            "medium": {
+            "w": 600,
+            "h": 600,
+            "resize": "fit"
+            },
+            "large": {
+            "w": 720,
+            "h": 720,
+            "resize": "fit"
+            }
+            }
+            }
+            ]
+  },
+  "extended_entities": {
+  "media": [
+            {
+            "id": 650788221195038721,
+            "id_str": "650788221195038721",
+            "indices": [
+                        55,
+                        77
+                        ],
+            "media_url": "http://pbs.twimg.com/media/CQgQcGxWsAEYYur.png",
+            "media_url_https": "https://pbs.twimg.com/media/CQgQcGxWsAEYYur.png",
+            "url": "http://t.co/EnaYH0CGPV",
+            "display_url": "pic.twitter.com/EnaYH0CGPV",
+            "expanded_url": "http://twitter.com/NFL/status/650788619574095872/photo/1",
+            "type": "photo",
+            "sizes": {
+            "small": {
+            "w": 340,
+            "h": 340,
+            "resize": "fit"
+            },
+            "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+            },
+            "medium": {
+            "w": 600,
+            "h": 600,
+            "resize": "fit"
+            },
+            "large": {
+            "w": 720,
+            "h": 720,
+            "resize": "fit"
+            }
+            }
+            }
+            ]
+  },
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "pt"
+  },
+  {
+  "created_at": "Sun Oct 04 21:43:14 +0000 2015",
+  "id": 650788290384273408,
+  "id_str": "650788290384273408",
+  "text": "South Carolina rainfall is worst in a thousand years, Gov. Haley says http://t.co/aHOACy7iTd http://t.co/AmwzX7UCAg",
+  "source": "<a href=\"http://www.socialflow.com\" rel=\"nofollow\">SocialFlow</a>",
+  "truncated": false,
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+  "id": 14511951,
+  "id_str": "14511951",
+  "name": "Huffington Post",
+  "screen_name": "HuffingtonPost",
+  "location": "",
+  "description": "internet lovers | sleep believers | news addicts | big font obsessives | greek yogurt fans",
+  "url": "http://t.co/3OfNk6hcEA",
+  "entities": {
+  "url": {
+  "urls": [
+           {
+           "url": "http://t.co/3OfNk6hcEA",
+           "expanded_url": "http://www.huffingtonpost.com",
+           "display_url": "huffingtonpost.com",
+           "indices": [
+                       0,
+                       22
+                       ]
+           }
+           ]
+  },
+  "description": {
+  "urls": [
+  
+  ]
+  }
+  },
+  "protected": false,
+  "followers_count": 6263540,
+  "friends_count": 5603,
+  "listed_count": 77960,
+  "created_at": "Thu Apr 24 14:07:28 +0000 2008",
+  "favourites_count": 690,
+  "utc_offset": -14400,
+  "time_zone": "Eastern Time (US & Canada)",
+  "geo_enabled": true,
+  "verified": true,
+  "statuses_count": 431527,
+  "lang": "en",
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": true,
+  "profile_background_color": "2E7060",
+  "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/662779208/drm9hjltviedp5of1mft.png",
+  "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/662779208/drm9hjltviedp5of1mft.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/635893196300554244/9ZsuGSKa_normal.png",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/635893196300554244/9ZsuGSKa_normal.png",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/14511951/1443474792",
+  "profile_link_color": "015E50",
+  "profile_sidebar_border_color": "FFFFFF",
+  "profile_sidebar_fill_color": "E3E2DE",
+  "profile_text_color": "000000",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": false,
+  "default_profile_image": false,
+  "following": true,
+  "follow_request_sent": false,
+  "notifications": false
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 19,
+  "favorite_count": 8,
+  "entities": {
+  "hashtags": [
+  
+  ],
+  "symbols": [
+  
+  ],
+  "user_mentions": [
+  
+  ],
+  "urls": [
+           {
+           "url": "http://t.co/aHOACy7iTd",
+           "expanded_url": "http://huff.to/1L004F1",
+           "display_url": "huff.to/1L004F1",
+           "indices": [
+                       70,
+                       92
+                       ]
+           }
+           ],
+  "media": [
+            {
+            "id": 650788289616592896,
+            "id_str": "650788289616592896",
+            "indices": [
+                        93,
+                        115
+                        ],
+            "media_url": "http://pbs.twimg.com/media/CQgQgFqUwAAab9n.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/CQgQgFqUwAAab9n.jpg",
+            "url": "http://t.co/AmwzX7UCAg",
+            "display_url": "pic.twitter.com/AmwzX7UCAg",
+            "expanded_url": "http://twitter.com/HuffingtonPost/status/650788290384273408/photo/1",
+            "type": "photo",
+            "sizes": {
+            "medium": {
+            "w": 600,
+            "h": 315,
+            "resize": "fit"
+            },
+            "large": {
+            "w": 1024,
+            "h": 537,
+            "resize": "fit"
+            },
+            "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+            },
+            "small": {
+            "w": 340,
+            "h": 178,
+            "resize": "fit"
+            }
+            }
+            }
+            ]
+  },
+  "extended_entities": {
+  "media": [
+            {
+            "id": 650788289616592896,
+            "id_str": "650788289616592896",
+            "indices": [
+                        93,
+                        115
+                        ],
+            "media_url": "http://pbs.twimg.com/media/CQgQgFqUwAAab9n.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/CQgQgFqUwAAab9n.jpg",
+            "url": "http://t.co/AmwzX7UCAg",
+            "display_url": "pic.twitter.com/AmwzX7UCAg",
+            "expanded_url": "http://twitter.com/HuffingtonPost/status/650788290384273408/photo/1",
+            "type": "photo",
+            "sizes": {
+            "medium": {
+            "w": 600,
+            "h": 315,
+            "resize": "fit"
+            },
+            "large": {
+            "w": 1024,
+            "h": 537,
+            "resize": "fit"
+            },
+            "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+            },
+            "small": {
+            "w": 340,
+            "h": 178,
+            "resize": "fit"
+            }
+            }
+            }
+            ]
+  },
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+  },
+  {
+  "created_at": "Sun Oct 04 21:43:03 +0000 2015",
+  "id": 650788247707238400,
+  "id_str": "650788247707238400",
+  "text": "What @FCousteau learned from living underwater for 31 days: http://t.co/O4AWzNwqGC http://t.co/HP5G6JvSEM",
+  "source": "<a href=\"http://www.socialflow.com\" rel=\"nofollow\">SocialFlow</a>",
+  "truncated": false,
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+  "id": 15492359,
+  "id_str": "15492359",
+  "name": "TED Talks",
+  "screen_name": "TEDTalks",
+  "location": "New York, NY",
+  "description": "The official feed for http://t.co/XyGsGk6F0m. Ideas worth spreading.",
+  "url": "http://t.co/7qVI5vqFrr",
+  "entities": {
+  "url": {
+  "urls": [
+           {
+           "url": "http://t.co/7qVI5vqFrr",
+           "expanded_url": "http://www.ted.com",
+           "display_url": "ted.com",
+           "indices": [
+                       0,
+                       22
+                       ]
+           }
+           ]
+  },
+  "description": {
+  "urls": [
+           {
+           "url": "http://t.co/XyGsGk6F0m",
+           "expanded_url": "http://TED.com",
+           "display_url": "TED.com",
+           "indices": [
+                       22,
+                       44
+                       ]
+           }
+           ]
+  }
+  },
+  "protected": false,
+  "followers_count": 6688156,
+  "friends_count": 394,
+  "listed_count": 49240,
+  "created_at": "Sat Jul 19 13:22:50 +0000 2008",
+  "favourites_count": 1671,
+  "utc_offset": -14400,
+  "time_zone": "Eastern Time (US & Canada)",
+  "geo_enabled": false,
+  "verified": true,
+  "statuses_count": 10883,
+  "lang": "en",
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "000000",
+  "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/795046705/a71fe1893e3a1561abba1bff053e9328.gif",
+  "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/795046705/a71fe1893e3a1561abba1bff053e9328.gif",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/615531317489303552/pWXT4Dol_normal.png",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/615531317489303552/pWXT4Dol_normal.png",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/15492359/1426021644",
+  "profile_link_color": "FF2B06",
+  "profile_sidebar_border_color": "FFFFFF",
+  "profile_sidebar_fill_color": "E0E3DE",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": false,
+  "default_profile_image": false,
+  "following": true,
+  "follow_request_sent": false,
+  "notifications": false
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 12,
+  "favorite_count": 18,
+  "entities": {
+  "hashtags": [
+  
+  ],
+  "symbols": [
+  
+  ],
+  "user_mentions": [
+                    {
+                    "screen_name": "FCousteau",
+                    "name": "Fabien Cousteau",
+                    "id": 17758502,
+                    "id_str": "17758502",
+                    "indices": [
+                                5,
+                                15
+                                ]
+                    }
+                    ],
+  "urls": [
+           {
+           "url": "http://t.co/O4AWzNwqGC",
+           "expanded_url": "http://t.ted.com/q8CmqtU",
+           "display_url": "t.ted.com/q8CmqtU",
+           "indices": [
+                       60,
+                       82
+                       ]
+           }
+           ],
+  "media": [
+            {
+            "id": 650788247157800961,
+            "id_str": "650788247157800961",
+            "indices": [
+                        83,
+                        105
+                        ],
+            "media_url": "http://pbs.twimg.com/media/CQgQdnfXAAEmj6k.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/CQgQdnfXAAEmj6k.jpg",
+            "url": "http://t.co/HP5G6JvSEM",
+            "display_url": "pic.twitter.com/HP5G6JvSEM",
+            "expanded_url": "http://twitter.com/TEDTalks/status/650788247707238400/photo/1",
+            "type": "photo",
+            "sizes": {
+            "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+            },
+            "small": {
+            "w": 340,
+            "h": 191,
+            "resize": "fit"
+            },
+            "large": {
+            "w": 800,
+            "h": 450,
+            "resize": "fit"
+            },
+            "medium": {
+            "w": 600,
+            "h": 337,
+            "resize": "fit"
+            }
+            }
+            }
+            ]
+  },
+  "extended_entities": {
+  "media": [
+            {
+            "id": 650788247157800961,
+            "id_str": "650788247157800961",
+            "indices": [
+                        83,
+                        105
+                        ],
+            "media_url": "http://pbs.twimg.com/media/CQgQdnfXAAEmj6k.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/CQgQdnfXAAEmj6k.jpg",
+            "url": "http://t.co/HP5G6JvSEM",
+            "display_url": "pic.twitter.com/HP5G6JvSEM",
+            "expanded_url": "http://twitter.com/TEDTalks/status/650788247707238400/photo/1",
+            "type": "photo",
+            "sizes": {
+            "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+            },
+            "small": {
+            "w": 340,
+            "h": 191,
+            "resize": "fit"
+            },
+            "large": {
+            "w": 800,
+            "h": 450,
+            "resize": "fit"
+            },
+            "medium": {
+            "w": 600,
+            "h": 337,
+            "resize": "fit"
+            }
+            }
+            }
+            ]
+  },
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+  },
+  {
+  "created_at": "Sun Oct 04 21:42:04 +0000 2015",
+  "id": 650787999572070400,
+  "id_str": "650787999572070400",
+  "text": "After winning ugly last week, the Eagles looked out of sorts in a loss to Washington: http://t.co/WHxcTtkCTF http://t.co/KXuxTMjjbA",
+  "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+  "truncated": false,
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+  "id": 2557521,
+  "id_str": "2557521",
+  "name": "ESPN",
+  "screen_name": "espn",
+  "location": "Bristol, CT",
+  "description": "We talk about sports, sports, and well ... sports.",
+  "url": "http://t.co/raFrxi89OH",
+  "entities": {
+  "url": {
+  "urls": [
+           {
+           "url": "http://t.co/raFrxi89OH",
+           "expanded_url": "http://espn.go.com",
+           "display_url": "espn.go.com",
+           "indices": [
+                       0,
+                       22
+                       ]
+           }
+           ]
+  },
+  "description": {
+  "urls": [
+  
+  ]
+  }
+  },
+  "protected": false,
+  "followers_count": 21980590,
+  "friends_count": 299,
+  "listed_count": 53646,
+  "created_at": "Tue Mar 27 20:46:16 +0000 2007",
+  "favourites_count": 119,
+  "utc_offset": -14400,
+  "time_zone": "Eastern Time (US & Canada)",
+  "geo_enabled": true,
+  "verified": true,
+  "statuses_count": 66271,
+  "lang": "en",
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": true,
+  "profile_background_color": "C8C8C8",
+  "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/601774592/rqjossil7yrf5tn5fdvl.jpeg",
+  "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/601774592/rqjossil7yrf5tn5fdvl.jpeg",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/629351437676511232/PnAYQDx8_normal.png",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/629351437676511232/PnAYQDx8_normal.png",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/2557521/1406572302",
+  "profile_link_color": "CC0000",
+  "profile_sidebar_border_color": "FFFFFF",
+  "profile_sidebar_fill_color": "EFEFEF",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": false,
+  "default_profile_image": false,
+  "following": true,
+  "follow_request_sent": false,
+  "notifications": false
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 32,
+  "favorite_count": 65,
+  "entities": {
+  "hashtags": [
+  
+  ],
+  "symbols": [
+  
+  ],
+  "user_mentions": [
+  
+  ],
+  "urls": [
+           {
+           "url": "http://t.co/WHxcTtkCTF",
+           "expanded_url": "http://es.pn/1L8YfVr",
+           "display_url": "es.pn/1L8YfVr",
+           "indices": [
+                       86,
+                       108
+                       ]
+           }
+           ],
+  "media": [
+            {
+            "id": 650784711447609344,
+            "id_str": "650784711447609344",
+            "indices": [
+                        109,
+                        131
+                        ],
+            "media_url": "http://pbs.twimg.com/media/CQgNPz8XAAAZ5AK.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/CQgNPz8XAAAZ5AK.jpg",
+            "url": "http://t.co/KXuxTMjjbA",
+            "display_url": "pic.twitter.com/KXuxTMjjbA",
+            "expanded_url": "http://twitter.com/espn/status/650787999572070400/photo/1",
+            "type": "photo",
+            "sizes": {
+            "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+            },
+            "small": {
+            "w": 340,
+            "h": 191,
+            "resize": "fit"
+            },
+            "medium": {
+            "w": 570,
+            "h": 321,
+            "resize": "fit"
+            },
+            "large": {
+            "w": 570,
+            "h": 321,
+            "resize": "fit"
+            }
+            }
+            }
+            ]
+  },
+  "extended_entities": {
+  "media": [
+            {
+            "id": 650784711447609344,
+            "id_str": "650784711447609344",
+            "indices": [
+                        109,
+                        131
+                        ],
+            "media_url": "http://pbs.twimg.com/media/CQgNPz8XAAAZ5AK.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/CQgNPz8XAAAZ5AK.jpg",
+            "url": "http://t.co/KXuxTMjjbA",
+            "display_url": "pic.twitter.com/KXuxTMjjbA",
+            "expanded_url": "http://twitter.com/espn/status/650787999572070400/photo/1",
+            "type": "photo",
+            "sizes": {
+            "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+            },
+            "small": {
+            "w": 340,
+            "h": 191,
+            "resize": "fit"
+            },
+            "medium": {
+            "w": 570,
+            "h": 321,
+            "resize": "fit"
+            },
+            "large": {
+            "w": 570,
+            "h": 321,
+            "resize": "fit"
+            }
+            }
+            }
+            ]
+  },
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+  },
+  {
+  "created_at": "Sun Oct 04 21:42:00 +0000 2015",
+  "id": 650787980953518084,
+  "id_str": "650787980953518084",
+  "text": "Trivia app QuizUp will become NBC's next primetime TV gameshow http://t.co/zjZweMquLV http://t.co/8nRJc5fIlc",
+  "source": "<a href=\"http://sproutsocial.com\" rel=\"nofollow\">Sprout Social</a>",
+  "truncated": false,
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+  "id": 275686563,
+  "id_str": "275686563",
+  "name": "The Verge",
+  "screen_name": "verge",
+  "location": "New York",
+  "description": "http://t.co/W2SFxIXkC4 covers the future of technology, science, art, and culture. \n\nSnapchat: therealverge",
+  "url": "http://t.co/W2SFxIXkC4",
+  "entities": {
+  "url": {
+  "urls": [
+           {
+           "url": "http://t.co/W2SFxIXkC4",
+           "expanded_url": "http://www.theverge.com",
+           "display_url": "theverge.com",
+           "indices": [
+                       0,
+                       22
+                       ]
+           }
+           ]
+  },
+  "description": {
+  "urls": [
+           {
+           "url": "http://t.co/W2SFxIXkC4",
+           "expanded_url": "http://www.theverge.com",
+           "display_url": "theverge.com",
+           "indices": [
+                       0,
+                       22
+                       ]
+           }
+           ]
+  }
+  },
+  "protected": false,
+  "followers_count": 1032881,
+  "friends_count": 124,
+  "listed_count": 26614,
+  "created_at": "Fri Apr 01 19:54:22 +0000 2011",
+  "favourites_count": 1126,
+  "utc_offset": -14400,
+  "time_zone": "Eastern Time (US & Canada)",
+  "geo_enabled": false,
+  "verified": true,
+  "statuses_count": 76444,
+  "lang": "en",
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": true,
+  "profile_background_color": "FFFFFF",
+  "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/481546505468145664/a59ZFvIP.jpeg",
+  "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/481546505468145664/a59ZFvIP.jpeg",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/615501837341466624/I4jVBBp-_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/615501837341466624/I4jVBBp-_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/275686563/1433249898",
+  "profile_link_color": "FA4D2A",
+  "profile_sidebar_border_color": "000000",
+  "profile_sidebar_fill_color": "EFEFEF",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": false,
+  "default_profile_image": false,
+  "following": true,
+  "follow_request_sent": false,
+  "notifications": false
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 4,
+  "favorite_count": 1,
+  "entities": {
+  "hashtags": [
+  
+  ],
+  "symbols": [
+  
+  ],
+  "user_mentions": [
+  
+  ],
+  "urls": [
+           {
+           "url": "http://t.co/zjZweMquLV",
+           "expanded_url": "http://www.theverge.com/2015/9/30/9412795/quiup-tv-game-show-nbc?utm_campaign=theverge&utm_content=chorus&utm_medium=social&utm_source=twitter",
+           "display_url": "theverge.com/2015/9/30/9412…",
+           "indices": [
+                       63,
+                       85
+                       ]
+           }
+           ],
+  "media": [
+            {
+            "id": 649237291957899264,
+            "id_str": "649237291957899264",
+            "indices": [
+                        86,
+                        108
+                        ],
+            "media_url": "http://pbs.twimg.com/media/CQKN4JIWUAAzIMp.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/CQKN4JIWUAAzIMp.jpg",
+            "url": "http://t.co/8nRJc5fIlc",
+            "display_url": "pic.twitter.com/8nRJc5fIlc",
+            "expanded_url": "http://twitter.com/verge/status/649237292083748866/photo/1",
+            "type": "photo",
+            "sizes": {
+            "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+            },
+            "small": {
+            "w": 340,
+            "h": 191,
+            "resize": "fit"
+            },
+            "medium": {
+            "w": 600,
+            "h": 337,
+            "resize": "fit"
+            },
+            "large": {
+            "w": 1024,
+            "h": 576,
+            "resize": "fit"
+            }
+            },
+            "source_status_id": 649237292083748866,
+            "source_status_id_str": "649237292083748866",
+            "source_user_id": 275686563,
+            "source_user_id_str": "275686563"
+            }
+            ]
+  },
+  "extended_entities": {
+  "media": [
+            {
+            "id": 649237291957899264,
+            "id_str": "649237291957899264",
+            "indices": [
+                        86,
+                        108
+                        ],
+            "media_url": "http://pbs.twimg.com/media/CQKN4JIWUAAzIMp.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/CQKN4JIWUAAzIMp.jpg",
+            "url": "http://t.co/8nRJc5fIlc",
+            "display_url": "pic.twitter.com/8nRJc5fIlc",
+            "expanded_url": "http://twitter.com/verge/status/649237292083748866/photo/1",
+            "type": "photo",
+            "sizes": {
+            "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+            },
+            "small": {
+            "w": 340,
+            "h": 191,
+            "resize": "fit"
+            },
+            "medium": {
+            "w": 600,
+            "h": 337,
+            "resize": "fit"
+            },
+            "large": {
+            "w": 1024,
+            "h": 576,
+            "resize": "fit"
+            }
+            },
+            "source_status_id": 649237292083748866,
+            "source_status_id_str": "649237292083748866",
+            "source_user_id": 275686563,
+            "source_user_id_str": "275686563"
+            }
+            ]
+  },
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+  },
+  {
+  "created_at": "Sun Oct 04 21:42:00 +0000 2015",
+  "id": 650787980802682880,
+  "id_str": "650787980802682880",
+  "text": "This was the worst quarter for U.S. stocks since 2011, putting stocks in the red for the year: http://t.co/fqwKteuHvf",
+  "source": "<a href=\"http://www.sprinklr.com\" rel=\"nofollow\">Sprinklr</a>",
+  "truncated": false,
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+  "id": 91478624,
+  "id_str": "91478624",
+  "name": "Forbes",
+  "screen_name": "Forbes",
+  "location": "New York, NY",
+  "description": "Official Twitter account of http://t.co/iVGiXAHX, homepage for the world's business leaders.",
+  "url": "http://t.co/KH6EtekF5q",
+  "entities": {
+  "url": {
+  "urls": [
+           {
+           "url": "http://t.co/KH6EtekF5q",
+           "expanded_url": "http://forbes.com",
+           "display_url": "forbes.com",
+           "indices": [
+                       0,
+                       22
+                       ]
+           }
+           ]
+  },
+  "description": {
+  "urls": [
+           {
+           "url": "http://t.co/iVGiXAHX",
+           "expanded_url": "http://Forbes.com",
+           "display_url": "Forbes.com",
+           "indices": [
+                       28,
+                       48
+                       ]
+           }
+           ]
+  }
+  },
+  "protected": false,
+  "followers_count": 6894661,
+  "friends_count": 5270,
+  "listed_count": 43952,
+  "created_at": "Sat Nov 21 02:09:57 +0000 2009",
+  "favourites_count": 4150,
+  "utc_offset": -14400,
+  "time_zone": "Eastern Time (US & Canada)",
+  "geo_enabled": false,
+  "verified": true,
+  "statuses_count": 112256,
+  "lang": "en",
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": true,
+  "profile_background_color": "072250",
+  "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/457626324/twitter_background_dark3.png",
+  "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/457626324/twitter_background_dark3.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1824717932/Forbes_Icon_normal.png",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1824717932/Forbes_Icon_normal.png",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/91478624/1400096856",
+  "profile_link_color": "072250",
+  "profile_sidebar_border_color": "CCCCCC",
+  "profile_sidebar_fill_color": "F7F7F7",
+  "profile_text_color": "000000",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": false,
+  "default_profile_image": false,
+  "following": true,
+  "follow_request_sent": false,
+  "notifications": false
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 19,
+  "favorite_count": 10,
+  "entities": {
+  "hashtags": [
+  
+  ],
+  "symbols": [
+  
+  ],
+  "user_mentions": [
+  
+  ],
+  "urls": [
+           {
+           "url": "http://t.co/fqwKteuHvf",
+           "expanded_url": "http://onforb.es/1j7QBod",
+           "display_url": "onforb.es/1j7QBod",
+           "indices": [
+                       95,
+                       117
+                       ]
+           }
+           ]
+  },
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+  },
+  {
+  "created_at": "Sun Oct 04 21:41:37 +0000 2015",
+  "id": 650787884795076608,
+  "id_str": "650787884795076608",
+  "text": "14-year-old fights back with punches after blacktip shark bites his hand at Florida beach, officials say. http://t.co/xuJnONc7Ds",
+  "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+  "truncated": false,
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+  "id": 428333,
+  "id_str": "428333",
+  "name": "CNN Breaking News",
+  "screen_name": "cnnbrk",
+  "location": "Everywhere",
+  "description": "Breaking news from reporters and editors on the CNN Digital news team. Now 30M strong. Check @cnn for all things CNN, breaking and more.",
+  "url": "http://t.co/HjKR4r61U5",
+  "entities": {
+  "url": {
+  "urls": [
+           {
+           "url": "http://t.co/HjKR4r61U5",
+           "expanded_url": "http://cnn.com/",
+           "display_url": "cnn.com",
+           "indices": [
+                       0,
+                       22
+                       ]
+           }
+           ]
+  },
+  "description": {
+  "urls": [
+  
+  ]
+  }
+  },
+  "protected": false,
+  "followers_count": 30138718,
+  "friends_count": 117,
+  "listed_count": 167804,
+  "created_at": "Tue Jan 02 01:48:14 +0000 2007",
+  "favourites_count": 13,
+  "utc_offset": -14400,
+  "time_zone": "Eastern Time (US & Canada)",
+  "geo_enabled": false,
+  "verified": true,
+  "statuses_count": 43510,
+  "lang": "en",
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": true,
+  "profile_background_color": "323232",
+  "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/17349501/CNN_Twitter_Background_05.2009.GIF",
+  "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/17349501/CNN_Twitter_Background_05.2009.GIF",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/550063386914852865/4JHr5H_Y_normal.jpeg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/550063386914852865/4JHr5H_Y_normal.jpeg",
+  "profile_link_color": "004287",
+  "profile_sidebar_border_color": "DADADA",
+  "profile_sidebar_fill_color": "EEEEEE",
+  "profile_text_color": "000000",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": false,
+  "default_profile_image": false,
+  "following": true,
+  "follow_request_sent": false,
+  "notifications": false
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 58,
+  "favorite_count": 50,
+  "entities": {
+  "hashtags": [
+  
+  ],
+  "symbols": [
+  
+  ],
+  "user_mentions": [
+  
+  ],
+  "urls": [
+           {
+           "url": "http://t.co/xuJnONc7Ds",
+           "expanded_url": "http://cnn.it/1Z1hkmB",
+           "display_url": "cnn.it/1Z1hkmB",
+           "indices": [
+                       106,
+                       128
+                       ]
+           }
+           ]
+  },
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+  },
+  {
+  "created_at": "Sun Oct 04 21:40:46 +0000 2015",
+  "id": 650787670839398404,
+  "id_str": "650787670839398404",
+  "text": "Latest on Hurricane Joaquin: Hurricane Joaquin's eye passing just to the west of Bermuda http://t.co/Sq6FEunetz",
+  "source": "<a href=\"http://www.socialflow.com\" rel=\"nofollow\">SocialFlow</a>",
+  "truncated": false,
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+  "id": 51241574,
+  "id_str": "51241574",
+  "name": "The Associated Press",
+  "screen_name": "AP",
+  "location": "Global",
+  "description": "News from The Associated Press, and a taste of the great journalism produced by AP members and customers. Managed 24/7 by these editors: http://t.co/BibaTN49vB",
+  "url": "http://t.co/2QmQWtmJc7",
+  "entities": {
+  "url": {
+  "urls": [
+           {
+           "url": "http://t.co/2QmQWtmJc7",
+           "expanded_url": "http://www.ap.org",
+           "display_url": "ap.org",
+           "indices": [
+                       0,
+                       22
+                       ]
+           }
+           ]
+  },
+  "description": {
+  "urls": [
+           {
+           "url": "http://t.co/BibaTN49vB",
+           "expanded_url": "http://apne.ws/J2EPJ5",
+           "display_url": "apne.ws/J2EPJ5",
+           "indices": [
+                       137,
+                       159
+                       ]
+           }
+           ]
+  }
+  },
+  "protected": false,
+  "followers_count": 5772544,
+  "friends_count": 7303,
+  "listed_count": 72084,
+  "created_at": "Fri Jun 26 21:48:52 +0000 2009",
+  "favourites_count": 3,
+  "utc_offset": -14400,
+  "time_zone": "Eastern Time (US & Canada)",
+  "geo_enabled": false,
+  "verified": true,
+  "statuses_count": 120344,
+  "lang": "en",
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": true,
+  "profile_background_color": "333333",
+  "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/734506342/b3be603514207db70cb0a991c26f2718.jpeg",
+  "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/734506342/b3be603514207db70cb0a991c26f2718.jpeg",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/461964160838803457/8z9FImcv_normal.png",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/461964160838803457/8z9FImcv_normal.png",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/51241574/1399215324",
+  "profile_link_color": "CC3300",
+  "profile_sidebar_border_color": "FFFFFF",
+  "profile_sidebar_fill_color": "CCCCCC",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": false,
+  "default_profile_image": false,
+  "following": true,
+  "follow_request_sent": false,
+  "notifications": false
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 24,
+  "favorite_count": 10,
+  "entities": {
+  "hashtags": [
+  
+  ],
+  "symbols": [
+  
+  ],
+  "user_mentions": [
+  
+  ],
+  "urls": [
+           {
+           "url": "http://t.co/Sq6FEunetz",
+           "expanded_url": "http://apne.ws/1FR0r7T",
+           "display_url": "apne.ws/1FR0r7T",
+           "indices": [
+                       89,
+                       111
+                       ]
+           }
+           ]
+  },
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+  },
+  {
+  "created_at": "Sun Oct 04 21:40:27 +0000 2015",
+  "id": 650787593492254720,
+  "id_str": "650787593492254720",
+  "text": "‘They don’t allow you to fail’: In custom classrooms, at-risk students thrive http://t.co/GHhBbAqBEC | @NewsHour",
+  "source": "<a href=\"http://www.hootsuite.com\" rel=\"nofollow\">Hootsuite</a>",
+  "truncated": false,
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+  "id": 12133382,
+  "id_str": "12133382",
+  "name": "PBS",
+  "screen_name": "PBS",
+  "location": "Arlington, VA",
+  "description": "PBS invites you to discover new ideas and explore new worlds. Join us here for conversation and sharing.",
+  "url": "http://t.co/njsUdPits1",
+  "entities": {
+  "url": {
+  "urls": [
+           {
+           "url": "http://t.co/njsUdPits1",
+           "expanded_url": "http://pbs.org/",
+           "display_url": "pbs.org",
+           "indices": [
+                       0,
+                       22
+                       ]
+           }
+           ]
+  },
+  "description": {
+  "urls": [
+  
+  ]
+  }
+  },
+  "protected": false,
+  "followers_count": 2187476,
+  "friends_count": 165999,
+  "listed_count": 17100,
+  "created_at": "Fri Jan 11 22:05:56 +0000 2008",
+  "favourites_count": 2031,
+  "utc_offset": -14400,
+  "time_zone": "Eastern Time (US & Canada)",
+  "geo_enabled": true,
+  "verified": true,
+  "statuses_count": 48031,
+  "lang": "en",
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "FFFFFF",
+  "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/459415767801274368/YjerTXwZ.jpeg",
+  "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/459415767801274368/YjerTXwZ.jpeg",
+  "profile_background_tile": true,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/536909907669184512/t3o0BV4L_normal.png",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/536909907669184512/t3o0BV4L_normal.png",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/12133382/1443716652",
+  "profile_link_color": "081929",
+  "profile_sidebar_border_color": "000000",
+  "profile_sidebar_fill_color": "E5FCFF",
+  "profile_text_color": "170400",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": false,
+  "default_profile_image": false,
+  "following": true,
+  "follow_request_sent": false,
+  "notifications": false
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 4,
+  "favorite_count": 3,
+  "entities": {
+  "hashtags": [
+  
+  ],
+  "symbols": [
+  
+  ],
+  "user_mentions": [
+                    {
+                    "screen_name": "NewsHour",
+                    "name": "PBS NewsHour",
+                    "id": 14437914,
+                    "id_str": "14437914",
+                    "indices": [
+                                103,
+                                112
+                                ]
+                    }
+                    ],
+  "urls": [
+           {
+           "url": "http://t.co/GHhBbAqBEC",
+           "expanded_url": "http://www.pbs.org/newshour/bb/dont-allow-fail-customized-classroom-risk-students-thrive/",
+           "display_url": "pbs.org/newshour/bb/do…",
+           "indices": [
+                       78,
+                       100
+                       ]
+           }
+           ]
+  },
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+  },
+  {
+  "created_at": "Sun Oct 04 21:40:05 +0000 2015",
+  "id": 650787497627242496,
+  "id_str": "650787497627242496",
+  "text": "Listen to this: Designer Andrew Jones takes budget-speaker sound quality to a new high http://t.co/IGyHLNHRmn http://t.co/1oNWahYBlp",
+  "source": "<a href=\"http://www.socialflow.com\" rel=\"nofollow\">SocialFlow</a>",
+  "truncated": false,
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+  "id": 30261067,
+  "id_str": "30261067",
+  "name": "CNET",
+  "screen_name": "CNET",
+  "location": "San Francisco",
+  "description": "CNET is the place to get tech product reviews, news, price comparisons, videos, and podcasts. Add us on Snapchat: cnetsnaps",
+  "url": "http://t.co/NajCuIAUyl",
+  "entities": {
+  "url": {
+  "urls": [
+           {
+           "url": "http://t.co/NajCuIAUyl",
+           "expanded_url": "http://www.cnet.com",
+           "display_url": "cnet.com",
+           "indices": [
+                       0,
+                       22
+                       ]
+           }
+           ]
+  },
+  "description": {
+  "urls": [
+  
+  ]
+  }
+  },
+  "protected": false,
+  "followers_count": 1043668,
+  "friends_count": 272,
+  "listed_count": 23024,
+  "created_at": "Fri Apr 10 17:10:53 +0000 2009",
+  "favourites_count": 906,
+  "utc_offset": -25200,
+  "time_zone": "Pacific Time (US & Canada)",
+  "geo_enabled": true,
+  "verified": true,
+  "statuses_count": 96158,
+  "lang": "en",
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": true,
+  "profile_background_color": "000000",
+  "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/344156202/CNET-Twitter-Design4.jpg",
+  "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/344156202/CNET-Twitter-Design4.jpg",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/649992948449329152/7FHIs4h6_normal.png",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/649992948449329152/7FHIs4h6_normal.png",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/30261067/1423262771",
+  "profile_link_color": "0164A1",
+  "profile_sidebar_border_color": "DDDDDD",
+  "profile_sidebar_fill_color": "DDDDDD",
+  "profile_text_color": "404040",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": false,
+  "default_profile_image": false,
+  "following": true,
+  "follow_request_sent": false,
+  "notifications": false
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 10,
+  "favorite_count": 3,
+  "entities": {
+  "hashtags": [
+  
+  ],
+  "symbols": [
+  
+  ],
+  "user_mentions": [
+  
+  ],
+  "urls": [
+           {
+           "url": "http://t.co/IGyHLNHRmn",
+           "expanded_url": "http://cnet.co/1QPIV4m",
+           "display_url": "cnet.co/1QPIV4m",
+           "indices": [
+                       87,
+                       109
+                       ]
+           }
+           ],
+  "media": [
+            {
+            "id": 650787497002164224,
+            "id_str": "650787497002164224",
+            "indices": [
+                        110,
+                        132
+                        ],
+            "media_url": "http://pbs.twimg.com/media/CQgPx88UYAA00Hc.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/CQgPx88UYAA00Hc.jpg",
+            "url": "http://t.co/1oNWahYBlp",
+            "display_url": "pic.twitter.com/1oNWahYBlp",
+            "expanded_url": "http://twitter.com/CNET/status/650787497627242496/photo/1",
+            "type": "photo",
+            "sizes": {
+            "small": {
+            "w": 340,
+            "h": 245,
+            "resize": "fit"
+            },
+            "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+            },
+            "large": {
+            "w": 770,
+            "h": 556,
+            "resize": "fit"
+            },
+            "medium": {
+            "w": 600,
+            "h": 433,
+            "resize": "fit"
+            }
+            }
+            }
+            ]
+  },
+  "extended_entities": {
+  "media": [
+            {
+            "id": 650787497002164224,
+            "id_str": "650787497002164224",
+            "indices": [
+                        110,
+                        132
+                        ],
+            "media_url": "http://pbs.twimg.com/media/CQgPx88UYAA00Hc.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/CQgPx88UYAA00Hc.jpg",
+            "url": "http://t.co/1oNWahYBlp",
+            "display_url": "pic.twitter.com/1oNWahYBlp",
+            "expanded_url": "http://twitter.com/CNET/status/650787497627242496/photo/1",
+            "type": "photo",
+            "sizes": {
+            "small": {
+            "w": 340,
+            "h": 245,
+            "resize": "fit"
+            },
+            "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+            },
+            "large": {
+            "w": 770,
+            "h": 556,
+            "resize": "fit"
+            },
+            "medium": {
+            "w": 600,
+            "h": 433,
+            "resize": "fit"
+            }
+            }
+            }
+            ]
+  },
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+  },
+  {
+  "created_at": "Sun Oct 04 21:40:04 +0000 2015",
+  "id": 650787495588835328,
+  "id_str": "650787495588835328",
+  "text": "See what the cast of the 'Twilight' films looks like now http://t.co/4TPcJeyxMG http://t.co/KMmOtO7G08",
+  "source": "<a href=\"http://www.socialflow.com\" rel=\"nofollow\">SocialFlow</a>",
+  "truncated": false,
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+  "id": 14293310,
+  "id_str": "14293310",
+  "name": "TIME.com",
+  "screen_name": "TIME",
+  "location": "",
+  "description": "Breaking news and current events from around the globe. Hosted by TIME staff. Tweet questions to our customer service team @TIMEmag_Service.",
+  "url": "http://t.co/4aYbUuAeSh",
+  "entities": {
+  "url": {
+  "urls": [
+           {
+           "url": "http://t.co/4aYbUuAeSh",
+           "expanded_url": "http://www.time.com",
+           "display_url": "time.com",
+           "indices": [
+                       0,
+                       22
+                       ]
+           }
+           ]
+  },
+  "description": {
+  "urls": [
+  
+  ]
+  }
+  },
+  "protected": false,
+  "followers_count": 8375055,
+  "friends_count": 843,
+  "listed_count": 91388,
+  "created_at": "Thu Apr 03 13:54:30 +0000 2008",
+  "favourites_count": 626,
+  "utc_offset": -14400,
+  "time_zone": "Eastern Time (US & Canada)",
+  "geo_enabled": true,
+  "verified": true,
+  "statuses_count": 138163,
+  "lang": "en",
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": true,
+  "profile_background_color": "CC0000",
+  "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/735228291/107f1a300a90ee713937234bb3d139c0.jpeg",
+  "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/735228291/107f1a300a90ee713937234bb3d139c0.jpeg",
+  "profile_background_tile": true,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/1700796190/Picture_24_normal.png",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/1700796190/Picture_24_normal.png",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/14293310/1403546591",
+  "profile_link_color": "DE3333",
+  "profile_sidebar_border_color": "000000",
+  "profile_sidebar_fill_color": "D9D9D9",
+  "profile_text_color": "000000",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": false,
+  "default_profile_image": false,
+  "following": true,
+  "follow_request_sent": false,
+  "notifications": false
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 7,
+  "favorite_count": 11,
+  "entities": {
+  "hashtags": [
+  
+  ],
+  "symbols": [
+  
+  ],
+  "user_mentions": [
+  
+  ],
+  "urls": [
+           {
+           "url": "http://t.co/4TPcJeyxMG",
+           "expanded_url": "http://ti.me/1VxKwT9",
+           "display_url": "ti.me/1VxKwT9",
+           "indices": [
+                       57,
+                       79
+                       ]
+           }
+           ],
+  "media": [
+            {
+            "id": 650787495051939840,
+            "id_str": "650787495051939840",
+            "indices": [
+                        80,
+                        102
+                        ],
+            "media_url": "http://pbs.twimg.com/media/CQgPx1rWUAAnvsd.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/CQgPx1rWUAAnvsd.jpg",
+            "url": "http://t.co/KMmOtO7G08",
+            "display_url": "pic.twitter.com/KMmOtO7G08",
+            "expanded_url": "http://twitter.com/TIME/status/650787495588835328/photo/1",
+            "type": "photo",
+            "sizes": {
+            "large": {
+            "w": 1000,
+            "h": 500,
+            "resize": "fit"
+            },
+            "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+            },
+            "medium": {
+            "w": 600,
+            "h": 300,
+            "resize": "fit"
+            },
+            "small": {
+            "w": 340,
+            "h": 170,
+            "resize": "fit"
+            }
+            }
+            }
+            ]
+  },
+  "extended_entities": {
+  "media": [
+            {
+            "id": 650787495051939840,
+            "id_str": "650787495051939840",
+            "indices": [
+                        80,
+                        102
+                        ],
+            "media_url": "http://pbs.twimg.com/media/CQgPx1rWUAAnvsd.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/CQgPx1rWUAAnvsd.jpg",
+            "url": "http://t.co/KMmOtO7G08",
+            "display_url": "pic.twitter.com/KMmOtO7G08",
+            "expanded_url": "http://twitter.com/TIME/status/650787495588835328/photo/1",
+            "type": "photo",
+            "sizes": {
+            "large": {
+            "w": 1000,
+            "h": 500,
+            "resize": "fit"
+            },
+            "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+            },
+            "medium": {
+            "w": 600,
+            "h": 300,
+            "resize": "fit"
+            },
+            "small": {
+            "w": 340,
+            "h": 170,
+            "resize": "fit"
+            }
+            }
+            }
+            ]
+  },
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+  },
+  {
+  "created_at": "Sun Oct 04 21:38:41 +0000 2015",
+  "id": 650787146358386688,
+  "id_str": "650787146358386688",
+  "text": "RT @mraleph: how about NO? http://t.co/rMYJUHux66",
+  "source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>",
+  "truncated": false,
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+  "id": 14106113,
+  "id_str": "14106113",
+  "name": "Stefan Penner",
+  "screen_name": "stefanpenner",
+  "location": "ÜT: 49.811717,-97.13268",
+  "description": "longboarding canadian, oss addict, ember.js core team member, living in San Jose and working at @yahoo.",
+  "url": "https://t.co/Cx0MQqhkl7",
+  "entities": {
+  "url": {
+  "urls": [
+           {
+           "url": "https://t.co/Cx0MQqhkl7",
+           "expanded_url": "https://github.com/stefanpenner",
+           "display_url": "github.com/stefanpenner",
+           "indices": [
+                       0,
+                       23
+                       ]
+           }
+           ]
+  },
+  "description": {
+  "urls": [
+  
+  ]
+  }
+  },
+  "protected": false,
+  "followers_count": 3822,
+  "friends_count": 336,
+  "listed_count": 278,
+  "created_at": "Sun Mar 09 06:08:01 +0000 2008",
+  "favourites_count": 3427,
+  "utc_offset": -21600,
+  "time_zone": "Mountain Time (US & Canada)",
+  "geo_enabled": true,
+  "verified": false,
+  "statuses_count": 16967,
+  "lang": "en",
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "131516",
+  "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+  "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+  "profile_background_tile": true,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/651748248/stefan.penner_gmail.com_983f0346_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/651748248/stefan.penner_gmail.com_983f0346_normal.jpg",
+  "profile_link_color": "009999",
+  "profile_sidebar_border_color": "EEEEEE",
+  "profile_sidebar_fill_color": "EFEFEF",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": false,
+  "default_profile_image": false,
+  "following": true,
+  "follow_request_sent": false,
+  "notifications": false
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "retweeted_status": {
+  "created_at": "Sun Oct 04 19:13:55 +0000 2015",
+  "id": 650750714273243136,
+  "id_str": "650750714273243136",
+  "text": "how about NO? http://t.co/rMYJUHux66",
+  "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+  "truncated": false,
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+  "id": 53010195,
+  "id_str": "53010195",
+  "name": "Vyacheslav Egorov",
+  "screen_name": "mraleph",
+  "location": "Aarhus",
+  "description": "crazy Russian compiler engineer.",
+  "url": "http://t.co/EjEfJ0K5Wd",
+  "entities": {
+  "url": {
+  "urls": [
+           {
+           "url": "http://t.co/EjEfJ0K5Wd",
+           "expanded_url": "http://mrale.ph",
+           "display_url": "mrale.ph",
+           "indices": [
+                       0,
+                       22
+                       ]
+           }
+           ]
+  },
+  "description": {
+  "urls": [
+  
+  ]
+  }
+  },
+  "protected": false,
+  "followers_count": 5246,
+  "friends_count": 575,
+  "listed_count": 267,
+  "created_at": "Thu Jul 02 08:31:06 +0000 2009",
+  "favourites_count": 1112,
+  "utc_offset": 7200,
+  "time_zone": "Copenhagen",
+  "geo_enabled": true,
+  "verified": false,
+  "statuses_count": 16408,
+  "lang": "en",
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "000000",
+  "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/57064737/000kp2r7xx.png",
+  "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/57064737/000kp2r7xx.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/428865653903081472/XqtZKTVu_normal.png",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/428865653903081472/XqtZKTVu_normal.png",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/53010195/1410964059",
+  "profile_link_color": "088253",
+  "profile_sidebar_border_color": "D3D2CF",
+  "profile_sidebar_fill_color": "E3E2DE",
+  "profile_text_color": "634047",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": false,
+  "default_profile_image": false,
+  "following": false,
+  "follow_request_sent": false,
+  "notifications": false
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 4,
+  "favorite_count": 21,
+  "entities": {
+  "hashtags": [
+  
+  ],
+  "symbols": [
+  
+  ],
+  "user_mentions": [
+  
+  ],
+  "urls": [
+  
+  ],
+  "media": [
+            {
+            "id": 650750694148960256,
+            "id_str": "650750694148960256",
+            "indices": [
+                        14,
+                        36
+                        ],
+            "media_url": "http://pbs.twimg.com/media/CQfuTvoWcAA0xvB.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/CQfuTvoWcAA0xvB.jpg",
+            "url": "http://t.co/rMYJUHux66",
+            "display_url": "pic.twitter.com/rMYJUHux66",
+            "expanded_url": "http://twitter.com/mraleph/status/650750714273243136/photo/1",
+            "type": "photo",
+            "sizes": {
+            "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+            },
+            "small": {
+            "w": 340,
+            "h": 151,
+            "resize": "fit"
+            },
+            "medium": {
+            "w": 600,
+            "h": 267,
+            "resize": "fit"
+            },
+            "large": {
+            "w": 1024,
+            "h": 456,
+            "resize": "fit"
+            }
+            }
+            }
+            ]
+  },
+  "extended_entities": {
+  "media": [
+            {
+            "id": 650750694148960256,
+            "id_str": "650750694148960256",
+            "indices": [
+                        14,
+                        36
+                        ],
+            "media_url": "http://pbs.twimg.com/media/CQfuTvoWcAA0xvB.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/CQfuTvoWcAA0xvB.jpg",
+            "url": "http://t.co/rMYJUHux66",
+            "display_url": "pic.twitter.com/rMYJUHux66",
+            "expanded_url": "http://twitter.com/mraleph/status/650750714273243136/photo/1",
+            "type": "photo",
+            "sizes": {
+            "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+            },
+            "small": {
+            "w": 340,
+            "h": 151,
+            "resize": "fit"
+            },
+            "medium": {
+            "w": 600,
+            "h": 267,
+            "resize": "fit"
+            },
+            "large": {
+            "w": 1024,
+            "h": 456,
+            "resize": "fit"
+            }
+            }
+            }
+            ]
+  },
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+  },
+  "is_quote_status": false,
+  "retweet_count": 4,
+  "favorite_count": 0,
+  "entities": {
+  "hashtags": [
+  
+  ],
+  "symbols": [
+  
+  ],
+  "user_mentions": [
+                    {
+                    "screen_name": "mraleph",
+                    "name": "Vyacheslav Egorov",
+                    "id": 53010195,
+                    "id_str": "53010195",
+                    "indices": [
+                                3,
+                                11
+                                ]
+                    }
+                    ],
+  "urls": [
+  
+  ],
+  "media": [
+            {
+            "id": 650750694148960256,
+            "id_str": "650750694148960256",
+            "indices": [
+                        27,
+                        49
+                        ],
+            "media_url": "http://pbs.twimg.com/media/CQfuTvoWcAA0xvB.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/CQfuTvoWcAA0xvB.jpg",
+            "url": "http://t.co/rMYJUHux66",
+            "display_url": "pic.twitter.com/rMYJUHux66",
+            "expanded_url": "http://twitter.com/mraleph/status/650750714273243136/photo/1",
+            "type": "photo",
+            "sizes": {
+            "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+            },
+            "small": {
+            "w": 340,
+            "h": 151,
+            "resize": "fit"
+            },
+            "medium": {
+            "w": 600,
+            "h": 267,
+            "resize": "fit"
+            },
+            "large": {
+            "w": 1024,
+            "h": 456,
+            "resize": "fit"
+            }
+            },
+            "source_status_id": 650750714273243136,
+            "source_status_id_str": "650750714273243136",
+            "source_user_id": 53010195,
+            "source_user_id_str": "53010195"
+            }
+            ]
+  },
+  "extended_entities": {
+  "media": [
+            {
+            "id": 650750694148960256,
+            "id_str": "650750694148960256",
+            "indices": [
+                        27,
+                        49
+                        ],
+            "media_url": "http://pbs.twimg.com/media/CQfuTvoWcAA0xvB.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/CQfuTvoWcAA0xvB.jpg",
+            "url": "http://t.co/rMYJUHux66",
+            "display_url": "pic.twitter.com/rMYJUHux66",
+            "expanded_url": "http://twitter.com/mraleph/status/650750714273243136/photo/1",
+            "type": "photo",
+            "sizes": {
+            "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+            },
+            "small": {
+            "w": 340,
+            "h": 151,
+            "resize": "fit"
+            },
+            "medium": {
+            "w": 600,
+            "h": 267,
+            "resize": "fit"
+            },
+            "large": {
+            "w": 1024,
+            "h": 456,
+            "resize": "fit"
+            }
+            },
+            "source_status_id": 650750714273243136,
+            "source_status_id_str": "650750714273243136",
+            "source_user_id": 53010195,
+            "source_user_id_str": "53010195"
+            }
+            ]
+  },
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+  },
+  {
+  "created_at": "Sun Oct 04 21:37:22 +0000 2015",
+  "id": 650786814903496704,
+  "id_str": "650786814903496704",
+  "text": "It's hard enough to pick off Carson Palmer\nBut to pick him off using your helmet?\nJanoris Jenkins, no words #STLvsAZ http://t.co/QoINWwwe1a",
+  "source": "<a href=\"http://snappytv.com\" rel=\"nofollow\">SnappyTV.com</a>",
+  "truncated": false,
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+  "id": 19426551,
+  "id_str": "19426551",
+  "name": "NFL",
+  "screen_name": "NFL",
+  "location": "",
+  "description": "Official Twitter account of the National Football League.",
+  "url": "http://t.co/vIikzemJNp",
+  "entities": {
+  "url": {
+  "urls": [
+           {
+           "url": "http://t.co/vIikzemJNp",
+           "expanded_url": "http://www.nfl.com",
+           "display_url": "nfl.com",
+           "indices": [
+                       0,
+                       22
+                       ]
+           }
+           ]
+  },
+  "description": {
+  "urls": [
+  
+  ]
+  }
+  },
+  "protected": false,
+  "followers_count": 13465011,
+  "friends_count": 1965,
+  "listed_count": 42128,
+  "created_at": "Sat Jan 24 01:28:06 +0000 2009",
+  "favourites_count": 1136,
+  "utc_offset": -14400,
+  "time_zone": "Eastern Time (US & Canada)",
+  "geo_enabled": true,
+  "verified": true,
+  "statuses_count": 102234,
+  "lang": "en",
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "FFFFFF",
+  "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/783952246/66e217ec60a9c3c977295fb8b7ae1601.jpeg",
+  "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/783952246/66e217ec60a9c3c977295fb8b7ae1601.jpeg",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/649557597557665792/umjpf1U9_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/649557597557665792/umjpf1U9_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/19426551/1430162479",
+  "profile_link_color": "0084B4",
+  "profile_sidebar_border_color": "FFFFFF",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": false,
+  "default_profile_image": false,
+  "following": true,
+  "follow_request_sent": false,
+  "notifications": false
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 242,
+  "favorite_count": 326,
+  "entities": {
+  "hashtags": [
+               {
+               "text": "STLvsAZ",
+               "indices": [
+                           108,
+                           116
+                           ]
+               }
+               ],
+  "symbols": [
+  
+  ],
+  "user_mentions": [
+  
+  ],
+  "urls": [
+           {
+           "url": "http://t.co/QoINWwwe1a",
+           "expanded_url": "http://snpy.tv/1L94M2n",
+           "display_url": "snpy.tv/1L94M2n",
+           "indices": [
+                       117,
+                       139
+                       ]
+           }
+           ]
+  },
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+  },
+  {
+  "created_at": "Sun Oct 04 21:36:27 +0000 2015",
+  "id": 650786585236099072,
+  "id_str": "650786585236099072",
+  "text": "RT @nytimesarts: A startling sculpture at the @MetMuseum tells the story of a lost civilization http://t.co/kRWAvT1EqL http://t.co/5Sv7UGmp…",
+  "source": "<a href=\"http://www.socialflow.com\" rel=\"nofollow\">SocialFlow</a>",
+  "truncated": false,
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+  "id": 807095,
+  "id_str": "807095",
+  "name": "The New York Times",
+  "screen_name": "nytimes",
+  "location": "New York City",
+  "description": "Where the conversation begins. Follow for breaking news, special reports, RTs of our journalists and more from http://t.co/YapuoqX0HS",
+  "url": "http://t.co/ahvuWqicF9",
+  "entities": {
+  "url": {
+  "urls": [
+           {
+           "url": "http://t.co/ahvuWqicF9",
+           "expanded_url": "http://www.nytimes.com/",
+           "display_url": "nytimes.com",
+           "indices": [
+                       0,
+                       22
+                       ]
+           }
+           ]
+  },
+  "description": {
+  "urls": [
+           {
+           "url": "http://t.co/YapuoqX0HS",
+           "expanded_url": "http://NYTimes.com",
+           "display_url": "NYTimes.com",
+           "indices": [
+                       111,
+                       133
+                       ]
+           }
+           ]
+  }
+  },
+  "protected": false,
+  "followers_count": 20116008,
+  "friends_count": 991,
+  "listed_count": 166890,
+  "created_at": "Fri Mar 02 20:41:42 +0000 2007",
+  "favourites_count": 7340,
+  "utc_offset": -14400,
+  "time_zone": "Eastern Time (US & Canada)",
+  "geo_enabled": false,
+  "verified": true,
+  "statuses_count": 201267,
+  "lang": "en",
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": true,
+  "profile_background_color": "131516",
+  "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/736339684/948f072cc2da4e3a5e9f2ebfb3b1a0e7.png",
+  "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/736339684/948f072cc2da4e3a5e9f2ebfb3b1a0e7.png",
+  "profile_background_tile": true,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/2044921128/finals_normal.png",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/2044921128/finals_normal.png",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/807095/1355346050",
+  "profile_link_color": "607696",
+  "profile_sidebar_border_color": "FFFFFF",
+  "profile_sidebar_fill_color": "EFEFEF",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": false,
+  "default_profile_image": false,
+  "following": true,
+  "follow_request_sent": false,
+  "notifications": false
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "retweeted_status": {
+  "created_at": "Sun Oct 04 17:45:02 +0000 2015",
+  "id": 650728346746265600,
+  "id_str": "650728346746265600",
+  "text": "A startling sculpture at the @MetMuseum tells the story of a lost civilization http://t.co/kRWAvT1EqL http://t.co/5Sv7UGmpFh",
+  "source": "<a href=\"http://www.socialflow.com\" rel=\"nofollow\">SocialFlow</a>",
+  "truncated": false,
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+  "id": 1440641,
+  "id_str": "1440641",
+  "name": "New York Times Arts",
+  "screen_name": "nytimesarts",
+  "location": "New York, NY",
+  "description": "Arts and entertainment news from The New York Times.",
+  "url": "http://t.co/0H74AaBX8Y",
+  "entities": {
+  "url": {
+  "urls": [
+           {
+           "url": "http://t.co/0H74AaBX8Y",
+           "expanded_url": "http://www.nytimes.com/arts",
+           "display_url": "nytimes.com/arts",
+           "indices": [
+                       0,
+                       22
+                       ]
+           }
+           ]
+  },
+  "description": {
+  "urls": [
+  
+  ]
+  }
+  },
+  "protected": false,
+  "followers_count": 1746892,
+  "friends_count": 88,
+  "listed_count": 17580,
+  "created_at": "Sun Mar 18 20:30:33 +0000 2007",
+  "favourites_count": 18,
+  "utc_offset": -14400,
+  "time_zone": "Eastern Time (US & Canada)",
+  "geo_enabled": false,
+  "verified": false,
+  "statuses_count": 84567,
+  "lang": "en",
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "FFFFFF",
+  "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/2800588/twitter.post.gif",
+  "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/2800588/twitter.post.gif",
+  "profile_background_tile": true,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/2037590739/NYT_Twitter_arts_normal.png",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/2037590739/NYT_Twitter_arts_normal.png",
+  "profile_link_color": "004276",
+  "profile_sidebar_border_color": "323232",
+  "profile_sidebar_fill_color": "E7EFF8",
+  "profile_text_color": "000000",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": false,
+  "default_profile_image": false,
+  "following": false,
+  "follow_request_sent": false,
+  "notifications": false
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 55,
+  "favorite_count": 79,
+  "entities": {
+  "hashtags": [
+  
+  ],
+  "symbols": [
+  
+  ],
+  "user_mentions": [
+                    {
+                    "screen_name": "metmuseum",
+                    "name": "metmuseum",
+                    "id": 17057271,
+                    "id_str": "17057271",
+                    "indices": [
+                                29,
+                                39
+                                ]
+                    }
+                    ],
+  "urls": [
+           {
+           "url": "http://t.co/kRWAvT1EqL",
+           "expanded_url": "http://nyti.ms/1LmnNVo",
+           "display_url": "nyti.ms/1LmnNVo",
+           "indices": [
+                       79,
+                       101
+                       ]
+           }
+           ],
+  "media": [
+            {
+            "id": 650728346180042752,
+            "id_str": "650728346180042752",
+            "indices": [
+                        102,
+                        124
+                        ],
+            "media_url": "http://pbs.twimg.com/media/CQfZ-69WwAAXagj.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/CQfZ-69WwAAXagj.jpg",
+            "url": "http://t.co/5Sv7UGmpFh",
+            "display_url": "pic.twitter.com/5Sv7UGmpFh",
+            "expanded_url": "http://twitter.com/nytimesarts/status/650728346746265600/photo/1",
+            "type": "photo",
+            "sizes": {
+            "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+            },
+            "large": {
+            "w": 999,
+            "h": 560,
+            "resize": "fit"
+            },
+            "small": {
+            "w": 340,
+            "h": 190,
+            "resize": "fit"
+            },
+            "medium": {
+            "w": 600,
+            "h": 336,
+            "resize": "fit"
+            }
+            }
+            }
+            ]
+  },
+  "extended_entities": {
+  "media": [
+            {
+            "id": 650728346180042752,
+            "id_str": "650728346180042752",
+            "indices": [
+                        102,
+                        124
+                        ],
+            "media_url": "http://pbs.twimg.com/media/CQfZ-69WwAAXagj.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/CQfZ-69WwAAXagj.jpg",
+            "url": "http://t.co/5Sv7UGmpFh",
+            "display_url": "pic.twitter.com/5Sv7UGmpFh",
+            "expanded_url": "http://twitter.com/nytimesarts/status/650728346746265600/photo/1",
+            "type": "photo",
+            "sizes": {
+            "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+            },
+            "large": {
+            "w": 999,
+            "h": 560,
+            "resize": "fit"
+            },
+            "small": {
+            "w": 340,
+            "h": 190,
+            "resize": "fit"
+            },
+            "medium": {
+            "w": 600,
+            "h": 336,
+            "resize": "fit"
+            }
+            }
+            }
+            ]
+  },
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+  },
+  "is_quote_status": false,
+  "retweet_count": 55,
+  "favorite_count": 0,
+  "entities": {
+  "hashtags": [
+  
+  ],
+  "symbols": [
+  
+  ],
+  "user_mentions": [
+                    {
+                    "screen_name": "nytimesarts",
+                    "name": "New York Times Arts",
+                    "id": 1440641,
+                    "id_str": "1440641",
+                    "indices": [
+                                3,
+                                15
+                                ]
+                    },
+                    {
+                    "screen_name": "metmuseum",
+                    "name": "metmuseum",
+                    "id": 17057271,
+                    "id_str": "17057271",
+                    "indices": [
+                                46,
+                                56
+                                ]
+                    }
+                    ],
+  "urls": [
+           {
+           "url": "http://t.co/kRWAvT1EqL",
+           "expanded_url": "http://nyti.ms/1LmnNVo",
+           "display_url": "nyti.ms/1LmnNVo",
+           "indices": [
+                       96,
+                       118
+                       ]
+           }
+           ],
+  "media": [
+            {
+            "id": 650728346180042752,
+            "id_str": "650728346180042752",
+            "indices": [
+                        119,
+                        140
+                        ],
+            "media_url": "http://pbs.twimg.com/media/CQfZ-69WwAAXagj.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/CQfZ-69WwAAXagj.jpg",
+            "url": "http://t.co/5Sv7UGmpFh",
+            "display_url": "pic.twitter.com/5Sv7UGmpFh",
+            "expanded_url": "http://twitter.com/nytimesarts/status/650728346746265600/photo/1",
+            "type": "photo",
+            "sizes": {
+            "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+            },
+            "large": {
+            "w": 999,
+            "h": 560,
+            "resize": "fit"
+            },
+            "small": {
+            "w": 340,
+            "h": 190,
+            "resize": "fit"
+            },
+            "medium": {
+            "w": 600,
+            "h": 336,
+            "resize": "fit"
+            }
+            },
+            "source_status_id": 650728346746265600,
+            "source_status_id_str": "650728346746265600",
+            "source_user_id": 1440641,
+            "source_user_id_str": "1440641"
+            }
+            ]
+  },
+  "extended_entities": {
+  "media": [
+            {
+            "id": 650728346180042752,
+            "id_str": "650728346180042752",
+            "indices": [
+                        119,
+                        140
+                        ],
+            "media_url": "http://pbs.twimg.com/media/CQfZ-69WwAAXagj.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/CQfZ-69WwAAXagj.jpg",
+            "url": "http://t.co/5Sv7UGmpFh",
+            "display_url": "pic.twitter.com/5Sv7UGmpFh",
+            "expanded_url": "http://twitter.com/nytimesarts/status/650728346746265600/photo/1",
+            "type": "photo",
+            "sizes": {
+            "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+            },
+            "large": {
+            "w": 999,
+            "h": 560,
+            "resize": "fit"
+            },
+            "small": {
+            "w": 340,
+            "h": 190,
+            "resize": "fit"
+            },
+            "medium": {
+            "w": 600,
+            "h": 336,
+            "resize": "fit"
+            }
+            },
+            "source_status_id": 650728346746265600,
+            "source_status_id_str": "650728346746265600",
+            "source_user_id": 1440641,
+            "source_user_id_str": "1440641"
+            }
+            ]
+  },
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+  },
+  {
+  "created_at": "Sun Oct 04 21:36:15 +0000 2015",
+  "id": 650786535462293504,
+  "id_str": "650786535462293504",
+  "text": "'Downton Abbey' recap: Downton, you’re breaking my heart http://t.co/U4SNLwi0GC http://t.co/RshxEME6nR",
+  "source": "<a href=\"http://www.socialflow.com\" rel=\"nofollow\">SocialFlow</a>",
+  "truncated": false,
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+  "id": 972651,
+  "id_str": "972651",
+  "name": "Mashable",
+  "screen_name": "mashable",
+  "location": "",
+  "description": "News, resources, inspiration and fun for the connected generation. Tweets by @mashable staff.",
+  "url": "http://t.co/1Gm8aVACKn",
+  "entities": {
+  "url": {
+  "urls": [
+           {
+           "url": "http://t.co/1Gm8aVACKn",
+           "expanded_url": "http://mashable.com",
+           "display_url": "mashable.com",
+           "indices": [
+                       0,
+                       22
+                       ]
+           }
+           ]
+  },
+  "description": {
+  "urls": [
+  
+  ]
+  }
+  },
+  "protected": false,
+  "followers_count": 5883188,
+  "friends_count": 2828,
+  "listed_count": 125836,
+  "created_at": "Mon Mar 12 01:28:01 +0000 2007",
+  "favourites_count": 559,
+  "utc_offset": -14400,
+  "time_zone": "Eastern Time (US & Canada)",
+  "geo_enabled": false,
+  "verified": true,
+  "statuses_count": 157570,
+  "lang": "en",
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "00AEEF",
+  "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/705312036/bf7ca2a3f077d7e57b12a5ea4f1db268.png",
+  "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/705312036/bf7ca2a3f077d7e57b12a5ea4f1db268.png",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/638342444052930560/gMZvEMvt_normal.png",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/638342444052930560/gMZvEMvt_normal.png",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/972651/1401484849",
+  "profile_link_color": "00AEEF",
+  "profile_sidebar_border_color": "FFFFFF",
+  "profile_sidebar_fill_color": "88DBF4",
+  "profile_text_color": "3B3B3B",
+  "profile_use_background_image": false,
+  "has_extended_profile": false,
+  "default_profile": false,
+  "default_profile_image": false,
+  "following": true,
+  "follow_request_sent": false,
+  "notifications": false
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 26,
+  "favorite_count": 13,
+  "entities": {
+  "hashtags": [
+  
+  ],
+  "symbols": [
+  
+  ],
+  "user_mentions": [
+  
+  ],
+  "urls": [
+           {
+           "url": "http://t.co/U4SNLwi0GC",
+           "expanded_url": "http://on.mash.to/1L94FUg",
+           "display_url": "on.mash.to/1L94FUg",
+           "indices": [
+                       57,
+                       79
+                       ]
+           }
+           ],
+  "media": [
+            {
+            "id": 650786535005138945,
+            "id_str": "650786535005138945",
+            "indices": [
+                        80,
+                        102
+                        ],
+            "media_url": "http://pbs.twimg.com/media/CQgO59OWsAEBw6K.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/CQgO59OWsAEBw6K.jpg",
+            "url": "http://t.co/RshxEME6nR",
+            "display_url": "pic.twitter.com/RshxEME6nR",
+            "expanded_url": "http://twitter.com/mashable/status/650786535462293504/photo/1",
+            "type": "photo",
+            "sizes": {
+            "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+            },
+            "small": {
+            "w": 340,
+            "h": 191,
+            "resize": "fit"
+            },
+            "medium": {
+            "w": 600,
+            "h": 337,
+            "resize": "fit"
+            },
+            "large": {
+            "w": 949,
+            "h": 534,
+            "resize": "fit"
+            }
+            }
+            }
+            ]
+  },
+  "extended_entities": {
+  "media": [
+            {
+            "id": 650786535005138945,
+            "id_str": "650786535005138945",
+            "indices": [
+                        80,
+                        102
+                        ],
+            "media_url": "http://pbs.twimg.com/media/CQgO59OWsAEBw6K.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/CQgO59OWsAEBw6K.jpg",
+            "url": "http://t.co/RshxEME6nR",
+            "display_url": "pic.twitter.com/RshxEME6nR",
+            "expanded_url": "http://twitter.com/mashable/status/650786535462293504/photo/1",
+            "type": "photo",
+            "sizes": {
+            "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+            },
+            "small": {
+            "w": 340,
+            "h": 191,
+            "resize": "fit"
+            },
+            "medium": {
+            "w": 600,
+            "h": 337,
+            "resize": "fit"
+            },
+            "large": {
+            "w": 949,
+            "h": 534,
+            "resize": "fit"
+            }
+            }
+            }
+            ]
+  },
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+  },
+  {
+  "created_at": "Sun Oct 04 21:36:01 +0000 2015",
+  "id": 650786475009638401,
+  "id_str": "650786475009638401",
+  "text": "A handful of countries are actually lowering their CO2 emissions per person http://t.co/5VnTGbBSKI",
+  "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+  "truncated": false,
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+  "id": 14647570,
+  "id_str": "14647570",
+  "name": "Scientific American",
+  "screen_name": "sciam",
+  "location": "New York City, NY, USA",
+  "description": "Founded in 1845, Scientific American is the authoritative source for the science discoveries and technology innovations that matter.",
+  "url": "http://t.co/FfSfw3mLnA",
+  "entities": {
+  "url": {
+  "urls": [
+           {
+           "url": "http://t.co/FfSfw3mLnA",
+           "expanded_url": "http://www.scientificamerican.com",
+           "display_url": "scientificamerican.com",
+           "indices": [
+                       0,
+                       22
+                       ]
+           }
+           ]
+  },
+  "description": {
+  "urls": [
+  
+  ]
+  }
+  },
+  "protected": false,
+  "followers_count": 1146316,
+  "friends_count": 6748,
+  "listed_count": 24122,
+  "created_at": "Sun May 04 12:39:32 +0000 2008",
+  "favourites_count": 472,
+  "utc_offset": -14400,
+  "time_zone": "Eastern Time (US & Canada)",
+  "geo_enabled": false,
+  "verified": true,
+  "statuses_count": 42273,
+  "lang": "en",
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "F8F8F8",
+  "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/155524211/twitbg.jpg",
+  "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/155524211/twitbg.jpg",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/344513261578131564/b10c9510902473620c17c10b827f8a4f_normal.png",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/344513261578131564/b10c9510902473620c17c10b827f8a4f_normal.png",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/14647570/1412131260",
+  "profile_link_color": "19427C",
+  "profile_sidebar_border_color": "D1423D",
+  "profile_sidebar_fill_color": "ECECEC",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": false,
+  "default_profile_image": false,
+  "following": true,
+  "follow_request_sent": false,
+  "notifications": false
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 18,
+  "favorite_count": 16,
+  "entities": {
+  "hashtags": [
+  
+  ],
+  "symbols": [
+  
+  ],
+  "user_mentions": [
+  
+  ],
+  "urls": [
+           {
+           "url": "http://t.co/5VnTGbBSKI",
+           "expanded_url": "http://bit.ly/1FI1GXj",
+           "display_url": "bit.ly/1FI1GXj",
+           "indices": [
+                       76,
+                       98
+                       ]
+           }
+           ]
+  },
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+  },
+  {
+  "created_at": "Sun Oct 04 21:35:15 +0000 2015",
+  "id": 650786284429012993,
+  "id_str": "650786284429012993",
+  "text": "8 Reasons Why You Don't Have Money http://t.co/hBgjyA0uog",
+  "source": "<a href=\"http://www.hootsuite.com\" rel=\"nofollow\">Hootsuite</a>",
+  "truncated": false,
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+  "id": 19407053,
+  "id_str": "19407053",
+  "name": "Entrepreneur",
+  "screen_name": "Entrepreneur",
+  "location": "NYC | Orange County, CA",
+  "description": "Inspiring, informing and celebrating entrepreneurs since 1973. Please tweet @EntCommunity for questions and event live-feeds.",
+  "url": "http://t.co/adIkCuscVR",
+  "entities": {
+  "url": {
+  "urls": [
+           {
+           "url": "http://t.co/adIkCuscVR",
+           "expanded_url": "http://www.entrepreneur.com",
+           "display_url": "entrepreneur.com",
+           "indices": [
+                       0,
+                       22
+                       ]
+           }
+           ]
+  },
+  "description": {
+  "urls": [
+  
+  ]
+  }
+  },
+  "protected": false,
+  "followers_count": 1634989,
+  "friends_count": 1222,
+  "listed_count": 22362,
+  "created_at": "Fri Jan 23 18:46:10 +0000 2009",
+  "favourites_count": 272,
+  "utc_offset": -25200,
+  "time_zone": "Pacific Time (US & Canada)",
+  "geo_enabled": false,
+  "verified": true,
+  "statuses_count": 74603,
+  "lang": "en",
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "223F51",
+  "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/581585015047254016/CughMn3Z.jpg",
+  "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/581585015047254016/CughMn3Z.jpg",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/474753665970868224/GcoCzmcI_normal.jpeg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/474753665970868224/GcoCzmcI_normal.jpeg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/19407053/1442274655",
+  "profile_link_color": "365977",
+  "profile_sidebar_border_color": "FFFFFF",
+  "profile_sidebar_fill_color": "FFFFFF",
+  "profile_text_color": "363636",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": false,
+  "default_profile_image": false,
+  "following": true,
+  "follow_request_sent": false,
+  "notifications": false
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 27,
+  "favorite_count": 30,
+  "entities": {
+  "hashtags": [
+  
+  ],
+  "symbols": [
+  
+  ],
+  "user_mentions": [
+  
+  ],
+  "urls": [
+           {
+           "url": "http://t.co/hBgjyA0uog",
+           "expanded_url": "http://entm.ag/1KCGdRi",
+           "display_url": "entm.ag/1KCGdRi",
+           "indices": [
+                       35,
+                       57
+                       ]
+           }
+           ]
+  },
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+  },
+  {
+  "created_at": "Sun Oct 04 21:34:54 +0000 2015",
+  "id": 650786193718804481,
+  "id_str": "650786193718804481",
+  "text": "Modern Love: Taking a break for friendship http://t.co/iFC6Nquv1M",
+  "source": "<a href=\"http://www.socialflow.com\" rel=\"nofollow\">SocialFlow</a>",
+  "truncated": false,
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+  "id": 807095,
+  "id_str": "807095",
+  "name": "The New York Times",
+  "screen_name": "nytimes",
+  "location": "New York City",
+  "description": "Where the conversation begins. Follow for breaking news, special reports, RTs of our journalists and more from http://t.co/YapuoqX0HS",
+  "url": "http://t.co/ahvuWqicF9",
+  "entities": {
+  "url": {
+  "urls": [
+           {
+           "url": "http://t.co/ahvuWqicF9",
+           "expanded_url": "http://www.nytimes.com/",
+           "display_url": "nytimes.com",
+           "indices": [
+                       0,
+                       22
+                       ]
+           }
+           ]
+  },
+  "description": {
+  "urls": [
+           {
+           "url": "http://t.co/YapuoqX0HS",
+           "expanded_url": "http://NYTimes.com",
+           "display_url": "NYTimes.com",
+           "indices": [
+                       111,
+                       133
+                       ]
+           }
+           ]
+  }
+  },
+  "protected": false,
+  "followers_count": 20116008,
+  "friends_count": 991,
+  "listed_count": 166890,
+  "created_at": "Fri Mar 02 20:41:42 +0000 2007",
+  "favourites_count": 7340,
+  "utc_offset": -14400,
+  "time_zone": "Eastern Time (US & Canada)",
+  "geo_enabled": false,
+  "verified": true,
+  "statuses_count": 201267,
+  "lang": "en",
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": true,
+  "profile_background_color": "131516",
+  "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/736339684/948f072cc2da4e3a5e9f2ebfb3b1a0e7.png",
+  "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/736339684/948f072cc2da4e3a5e9f2ebfb3b1a0e7.png",
+  "profile_background_tile": true,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/2044921128/finals_normal.png",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/2044921128/finals_normal.png",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/807095/1355346050",
+  "profile_link_color": "607696",
+  "profile_sidebar_border_color": "FFFFFF",
+  "profile_sidebar_fill_color": "EFEFEF",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": false,
+  "default_profile_image": false,
+  "following": true,
+  "follow_request_sent": false,
+  "notifications": false
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 29,
+  "favorite_count": 66,
+  "entities": {
+  "hashtags": [
+  
+  ],
+  "symbols": [
+  
+  ],
+  "user_mentions": [
+  
+  ],
+  "urls": [
+           {
+           "url": "http://t.co/iFC6Nquv1M",
+           "expanded_url": "http://nyti.ms/1MOMreA",
+           "display_url": "nyti.ms/1MOMreA",
+           "indices": [
+                       43,
+                       65
+                       ]
+           }
+           ]
+  },
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+  },
+  {
+  "created_at": "Sun Oct 04 21:33:46 +0000 2015",
+  "id": 650785908992544770,
+  "id_str": "650785908992544770",
+  "text": "Cam's bow-tie game strong. #CARvsTB http://t.co/ZXZQDxp4eQ",
+  "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+  "truncated": false,
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+  "id": 19426551,
+  "id_str": "19426551",
+  "name": "NFL",
+  "screen_name": "NFL",
+  "location": "",
+  "description": "Official Twitter account of the National Football League.",
+  "url": "http://t.co/vIikzemJNp",
+  "entities": {
+  "url": {
+  "urls": [
+           {
+           "url": "http://t.co/vIikzemJNp",
+           "expanded_url": "http://www.nfl.com",
+           "display_url": "nfl.com",
+           "indices": [
+                       0,
+                       22
+                       ]
+           }
+           ]
+  },
+  "description": {
+  "urls": [
+  
+  ]
+  }
+  },
+  "protected": false,
+  "followers_count": 13465011,
+  "friends_count": 1965,
+  "listed_count": 42128,
+  "created_at": "Sat Jan 24 01:28:06 +0000 2009",
+  "favourites_count": 1136,
+  "utc_offset": -14400,
+  "time_zone": "Eastern Time (US & Canada)",
+  "geo_enabled": true,
+  "verified": true,
+  "statuses_count": 102234,
+  "lang": "en",
+  "contributors_enabled": false,
+  "is_translator": false,
+  "is_translation_enabled": false,
+  "profile_background_color": "FFFFFF",
+  "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/783952246/66e217ec60a9c3c977295fb8b7ae1601.jpeg",
+  "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/783952246/66e217ec60a9c3c977295fb8b7ae1601.jpeg",
+  "profile_background_tile": false,
+  "profile_image_url": "http://pbs.twimg.com/profile_images/649557597557665792/umjpf1U9_normal.jpg",
+  "profile_image_url_https": "https://pbs.twimg.com/profile_images/649557597557665792/umjpf1U9_normal.jpg",
+  "profile_banner_url": "https://pbs.twimg.com/profile_banners/19426551/1430162479",
+  "profile_link_color": "0084B4",
+  "profile_sidebar_border_color": "FFFFFF",
+  "profile_sidebar_fill_color": "DDEEF6",
+  "profile_text_color": "333333",
+  "profile_use_background_image": true,
+  "has_extended_profile": false,
+  "default_profile": false,
+  "default_profile_image": false,
+  "following": true,
+  "follow_request_sent": false,
+  "notifications": false
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "retweet_count": 215,
+  "favorite_count": 569,
+  "entities": {
+  "hashtags": [
+               {
+               "text": "CARvsTB",
+               "indices": [
+                           27,
+                           35
+                           ]
+               }
+               ],
+  "symbols": [
+  
+  ],
+  "user_mentions": [
+  
+  ],
+  "urls": [
+  
+  ],
+  "media": [
+            {
+            "id": 650785754482896898,
+            "id_str": "650785754482896898",
+            "indices": [
+                        36,
+                        58
+                        ],
+            "media_url": "http://pbs.twimg.com/media/CQgOMhjWcAIJCMd.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/CQgOMhjWcAIJCMd.jpg",
+            "url": "http://t.co/ZXZQDxp4eQ",
+            "display_url": "pic.twitter.com/ZXZQDxp4eQ",
+            "expanded_url": "http://twitter.com/NFL/status/650785908992544770/photo/1",
+            "type": "photo",
+            "sizes": {
+            "medium": {
+            "w": 600,
+            "h": 399,
+            "resize": "fit"
+            },
+            "small": {
+            "w": 340,
+            "h": 226,
+            "resize": "fit"
+            },
+            "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+            },
+            "large": {
+            "w": 1024,
+            "h": 682,
+            "resize": "fit"
+            }
+            }
+            }
+            ]
+  },
+  "extended_entities": {
+  "media": [
+            {
+            "id": 650785754482896898,
+            "id_str": "650785754482896898",
+            "indices": [
+                        36,
+                        58
+                        ],
+            "media_url": "http://pbs.twimg.com/media/CQgOMhjWcAIJCMd.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/CQgOMhjWcAIJCMd.jpg",
+            "url": "http://t.co/ZXZQDxp4eQ",
+            "display_url": "pic.twitter.com/ZXZQDxp4eQ",
+            "expanded_url": "http://twitter.com/NFL/status/650785908992544770/photo/1",
+            "type": "photo",
+            "sizes": {
+            "medium": {
+            "w": 600,
+            "h": 399,
+            "resize": "fit"
+            },
+            "small": {
+            "w": 340,
+            "h": 226,
+            "resize": "fit"
+            },
+            "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+            },
+            "large": {
+            "w": 1024,
+            "h": 682,
+            "resize": "fit"
+            }
+            }
+            }
+            ]
+  },
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en"
+  }
+  ]

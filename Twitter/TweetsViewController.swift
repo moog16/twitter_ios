@@ -19,7 +19,7 @@ class TweetsViewController: UIViewController, UITableViewDataSource, UITableView
         tweetsTableView.delegate = self
         tweetsTableView.dataSource = self
         tweetsTableView.rowHeight = UITableViewAutomaticDimension
-        tweetsTableView.estimatedRowHeight = 100
+        tweetsTableView.estimatedRowHeight = 150
         
         refreshControlTableView = UIRefreshControl()
         refreshControlTableView.addTarget(self, action: "onRefresh", forControlEvents: UIControlEvents.ValueChanged)
@@ -33,7 +33,7 @@ class TweetsViewController: UIViewController, UITableViewDataSource, UITableView
     }
     
     func getHomeTimeline(completion:(()->())?) {
-        TwitterClient.sharedInstance.rateLimitWithParams()
+//        TwitterClient.sharedInstance.rateLimitWithParams()
         TwitterClient.sharedInstance.homeTimelineWithParams(nil) { (tweets, error) -> () in
             self.tweets = tweets
             self.tweetsTableView.reloadData()
@@ -70,7 +70,7 @@ class TweetsViewController: UIViewController, UITableViewDataSource, UITableView
     }
     
     func newTweetViewController(newTweetViewController: NewTweetViewController, didTweet tweet: Tweet) {
-        tweets?.insertContentsOf(tweet, at: 0)
+        tweets?.insert(tweet, atIndex: 0)
         self.tweetsTableView.reloadData()
     }
     
@@ -78,8 +78,10 @@ class TweetsViewController: UIViewController, UITableViewDataSource, UITableView
         if sender is TweetCell {
             let cell = sender as! TweetCell
             let tweetViewController = segue.destinationViewController as! TweetViewController
-            let indexPath = tweetsTableView.indexPathForCell(cell)
-            tweetViewController.tweet = tweetsTableView.cellForRowAtIndexPath(indexPath)
+//            let indexPath = tweetsTableView.indexPathForCell(cell)
+//            let tweetCell = tweetsTableView.cellForRowAtIndexPath(indexPath!) as TweetCell
+            
+            tweetViewController.tweet =  cell.tweet
         } else {
             let newTweetController = segue.destinationViewController as! NewTweetViewController
             newTweetController.delegate = self

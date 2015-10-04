@@ -13,6 +13,16 @@ let twitterConsumerKey = "xxPPoU4qCR82jEY7FjmpNJdBe"
 let twitterConsumerSecret = "FUiM2DxO0wea4Wucm9vtJPRwEAbnzkKGlECyjplkudgWNkdDPM"
 let twitterBaseUrl = NSURL(string: "https://api.twitter.com")!
 
+struct Fixture {
+    static func loadFromFileNamed(name: String) -> [NSDictionary] {
+        print(name)
+        let filePath = NSBundle.mainBundle().pathForResource(name, ofType: "json")!
+        let data     = NSData(contentsOfFile: filePath)!
+        
+        return try! NSJSONSerialization.JSONObjectWithData(data, options: []) as! [NSDictionary]
+    }
+}
+
 class TwitterClient: BDBOAuth1RequestOperationManager {
     var loginCompletion: ((user: User?, error: NSError?) -> ())?
     
@@ -32,10 +42,14 @@ class TwitterClient: BDBOAuth1RequestOperationManager {
     }
     
     func homeTimelineWithParams(params: NSDictionary?, completion: (tweets: [Tweet]?, error: NSError?) -> ()) {
+//        let fixtures = Fixture.loadFromFileNamed("home-timeline")
+//        let tweetFixtures = Tweet.tweetsWithArray(fixtures)
+//        completion(tweets: tweetFixtures, error: nil)
+        
         GET("1.1/statuses/home_timeline.json", parameters: params, success:
                 { (operation: AFHTTPRequestOperation!, response: AnyObject!) -> Void in
                 let tweets = Tweet.tweetsWithArray(response as! [NSDictionary])
-                    print("\(response)")
+//                    print("\(response)")
                 completion(tweets: tweets, error: nil)
         }) { (operation: AFHTTPRequestOperation!, error: NSError!) -> Void in
             completion(tweets: nil, error: error)

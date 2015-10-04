@@ -15,11 +15,17 @@ class TweetCell: UITableViewCell {
     @IBOutlet weak var usernameLabel: UILabel!
     @IBOutlet weak var messageLabel: UILabel!
     @IBOutlet weak var timeLabel: UILabel!
+    @IBOutlet weak var fullTimeLabel: UILabel!
+    @IBOutlet weak var favoriteImageView: UIImageView!
+    @IBOutlet weak var replyImageView: UIImageView!
     @IBOutlet weak var retweetImageView: UIImageView!
+    @IBOutlet weak var wasRetweetedImage: UIImageView!
     
     var tweet: Tweet! {
         didSet {
-            messageLabel.text = tweet.text
+            if let text = tweet.text {
+                messageLabel.text = text
+            }
             if tweet.retweeted == true {
                 retweetImageView.hidden = false
 //                retweetedLabel.text = tweet.userRetweet?.name
@@ -30,8 +36,18 @@ class TweetCell: UITableViewCell {
                 usernameLabel.text = "@\(user.screenname!)"
                 avatarImage.setImageWithURL(avatarUrl)
             }
-            timeLabel.text = tweet.timeSince
-
+            
+            if self. {
+                if let createdAt = tweet.createdAtString {
+                    print(createdAt)
+                    fullTimeLabel.hidden = false
+                    fullTimeLabel.text = createdAt
+                }
+            } else {
+                if let timeSince = tweet.timeSince {
+                    timeLabel.text = "\(timeSince)"
+                }
+            }
         }
     }
 }
