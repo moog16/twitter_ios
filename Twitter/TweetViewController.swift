@@ -26,6 +26,7 @@ class TweetViewController: UIViewController, UITableViewDelegate, UITableViewDat
         switch indexPath.row {
         case 0:
             let cell = tweetTableView.dequeueReusableCellWithIdentifier("TweetCell", forIndexPath: indexPath) as! TweetCell
+            cell.isSingleTweetView = true
             cell.tweet = tweet
             return cell
         case 1:

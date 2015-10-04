@@ -21,15 +21,17 @@ class TweetCell: UITableViewCell {
     @IBOutlet weak var retweetImageView: UIImageView!
     @IBOutlet weak var wasRetweetedImage: UIImageView!
     
+    var isSingleTweetView = false
+    
     var tweet: Tweet! {
         didSet {
             if let text = tweet.text {
                 messageLabel.text = text
             }
-            if tweet.retweeted == true {
-                retweetImageView.hidden = false
+//            if tweet.retweeted == true {
+//                wasRetweetedImage.hidden = false
 //                retweetedLabel.text = tweet.userRetweet?.name
-            }
+//            }
             if let user = tweet.user {
                 let avatarUrl = NSURL(string: user.profileImageUrl!)
                 nameLabel.text = user.name
@@ -37,13 +39,13 @@ class TweetCell: UITableViewCell {
                 avatarImage.setImageWithURL(avatarUrl)
             }
             
-            if self. {
+            if isSingleTweetView == true {
                 if let createdAt = tweet.createdAtString {
                     print(createdAt)
-                    fullTimeLabel.hidden = false
                     fullTimeLabel.text = createdAt
                 }
             } else {
+                wasRetweetedImage.hidden = true
                 if let timeSince = tweet.timeSince {
                     timeLabel.text = "\(timeSince)"
                 }
