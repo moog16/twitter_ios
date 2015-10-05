@@ -20,6 +20,8 @@ class TweetViewController: UIViewController, UITableViewDelegate, UITableViewDat
         tweetTableView.rowHeight = UITableViewAutomaticDimension
         tweetTableView.estimatedRowHeight = 150
         tweetTableView.reloadData()
+        
+        navigationController?.navigationBar.tintColor = UIColor.whiteColor()
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {

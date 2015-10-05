@@ -10,17 +10,16 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
+    @IBOutlet weak var signInImageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        let tapRecognizer = UITapGestureRecognizer(target: self, action: "onSignIn:")
+        signInImageView.userInteractionEnabled = true
+        signInImageView.addGestureRecognizer(tapRecognizer)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
-    @IBAction func onLogin(sender: UIButton) {
+    
+    func onSignIn(tapGestureRecognizer: UITapGestureRecognizer) {
         TwitterClient.sharedInstance.loginWithCompletion {
             (user: User?, error: NSError?) in
             if user != nil {

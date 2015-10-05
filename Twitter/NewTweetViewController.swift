@@ -42,7 +42,9 @@ class NewTweetViewController: UIViewController {
     
     func setupTweetBarButton() {
         let tweetButton = UIBarButtonItem(title: "Tweet", style: UIBarButtonItemStyle.Plain, target: nil, action: "sendTweet")
-        navigationItem.rightBarButtonItem = tweetButton
+        let tweetCharCount = UILabel()
+//        tweetCharCount.text =
+        navigationItem.rightBarButtonItems = [tweetButton]
     }
     
     func sendTweet() {
