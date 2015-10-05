@@ -261,6 +261,7 @@
                             </view>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Write your tweet..." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="15B-Ad-TvU">
                                 <rect key="frame" x="8" y="138" width="584" height="454"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>

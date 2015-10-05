@@ -12,16 +12,18 @@ import UIKit
     optional func newTweetViewController(newTweetViewController: NewTweetViewController, didTweet tweet: Tweet)
 }
 
-class NewTweetViewController: UIViewController {
+class NewTweetViewController: UIViewController, UITextViewDelegate {
     @IBOutlet weak var userAvatarImageView: UIImageView!
     @IBOutlet weak var userScreenNameLabel: UILabel!
     @IBOutlet weak var userNameLabel: UILabel!
     @IBOutlet weak var newTweetTextView: UITextView!
+    
     var currentUser = User.currentUser!
     weak var delegate: NewTweetViewControllerDelegate?
     
     var isReplyTweet = false
     var tweetToReply: Tweet?
+    var tweetCharCount: UIBarButtonItem?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,6 +31,7 @@ class NewTweetViewController: UIViewController {
         userNameLabel.text = currentUser.name
         userScreenNameLabel.text = "@\(currentUser.screenname!)"
         userAvatarImageView.setImageWithURL(avatarUrl!)
+        newTweetTextView.delegate = self
         
         if isReplyTweet == true {
             if let tweet = tweetToReply {
@@ -41,10 +44,21 @@ class NewTweetViewController: UIViewController {
     }
     
     func setupTweetBarButton() {
-        let tweetButton = UIBarButtonItem(title: "Tweet", style: UIBarButtonItemStyle.Plain, target: nil, action: "sendTweet")
-        let tweetCharCount = UILabel()
-//        tweetCharCount.text =
-        navigationItem.rightBarButtonItems = [tweetButton]
+        let tweetButton = UIBarButtonItem(title: "Tweet", style: UIBarButtonItemStyle.Plain, target: nil, action: "nil")
+        tweetCharCount = UIBarButtonItem(title: "\(140 - newTweetTextView.text.characters.count)", style: UIBarButtonItemStyle.Plain, target: nil, action: "sendTweet")
+        tweetCharCount?.tintColor = UIColor.grayColor()
+        
+        navigationItem.rightBarButtonItems = [tweetButton, tweetCharCount!]
+    }
+    
+    func textViewDidChange(textView: UITextView) {
+        let charsRemaining = 140 - textView.text.characters.count
+        if charsRemaining <= 0 {
+            let text = textView.text
+            textView.text = text.substringToIndex(text.endIndex.predecessor())
+        }
+
+        tweetCharCount?.title = "\(charsRemaining)"
     }
     
     func sendTweet() {
