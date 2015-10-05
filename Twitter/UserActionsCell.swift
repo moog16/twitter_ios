@@ -11,6 +11,7 @@ import UIKit
 @objc protocol UserActionsCellDelegate {
     optional func userActionsCellDelegate(userActionsCell: UserActionsCell, didTapRetweet tweet: Tweet)
     optional func userActionsCellDelegate(userActionsCell: UserActionsCell, didTapFavorite tweet: Tweet)
+    optional func userActionsCellDelegate(userActionsCell: UserActionsCell, didTapReply tweet: Tweet)
 }
 
 class UserActionsCell: UITableViewCell {
@@ -31,6 +32,10 @@ class UserActionsCell: UITableViewCell {
         let tapFavoriteRecognizer = UITapGestureRecognizer(target: self, action: "onFavoriteTap:")
         favoriteImageView.userInteractionEnabled = true
         favoriteImageView.addGestureRecognizer(tapFavoriteRecognizer)
+        
+        let tapReplyRecognizer = UITapGestureRecognizer(target: self, action: "onReplyTap:")
+        replyImageView.userInteractionEnabled = true
+        replyImageView.addGestureRecognizer(tapReplyRecognizer)
     }
     
     var tweet: Tweet! {
@@ -50,6 +55,10 @@ class UserActionsCell: UITableViewCell {
     
     func onFavoriteTap(tapGestureRecognizer: UITapGestureRecognizer) {
         delegate?.userActionsCellDelegate?(self, didTapFavorite: tweet)
+    }
+    
+    func onReplyTap(tapGestureRecognizer: UITapGestureRecognizer) {
+        delegate?.userActionsCellDelegate?(self, didTapReply: tweet)
     }
 
 }

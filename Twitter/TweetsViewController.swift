@@ -80,8 +80,7 @@ class TweetsViewController: UIViewController, UITableViewDataSource, UITableView
                 if error != nil {
                    print("error from retweeting \(error)")
                 } else {
-                    print("retweet count \(tweet?.retweetCount)")
-                    tweetCell.tweet = tweet
+                    tweetCell.setRetweet(tweet!)
                 }
             }
         }
@@ -101,11 +100,23 @@ class TweetsViewController: UIViewController, UITableViewDataSource, UITableView
         }
     }
     
+    func tweetCellDelegate(tweetCell: TweetCell, didTapReply tweet: Tweet) {
+        self.performSegueWithIdentifier("newTweetSegue", sender: tweetCell)
+    }
+    
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if sender is TweetCell {
+            let vc = segue.destinationViewController
             let cell = sender as! TweetCell
-            let tweetViewController = segue.destinationViewController as! TweetViewController
-            tweetViewController.tweet =  cell.tweet
+            if vc is TweetViewController {
+                let tweetViewController = vc as! TweetViewController
+                tweetViewController.tweet =  cell.tweet
+            } else {
+                let newTweetViewController = vc as! NewTweetViewController
+                newTweetViewController.tweetToReply = cell.tweet
+                newTweetViewController.isReplyTweet = true
+                newTweetViewController.delegate = self
+            }
         } else {
             let newTweetController = segue.destinationViewController as! NewTweetViewController
             newTweetController.delegate = self

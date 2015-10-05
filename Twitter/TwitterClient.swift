@@ -49,7 +49,6 @@ class TwitterClient: BDBOAuth1RequestOperationManager {
         GET("1.1/statuses/home_timeline.json", parameters: params, success:
                 { (operation: AFHTTPRequestOperation!, response: AnyObject!) -> Void in
                 let tweets = Tweet.tweetsWithArray(response as! [NSDictionary])
-//                    print("\(response)")
                 completion(tweets: tweets, error: nil)
         }) { (operation: AFHTTPRequestOperation!, error: NSError!) -> Void in
             completion(tweets: nil, error: error)
@@ -67,6 +66,7 @@ class TwitterClient: BDBOAuth1RequestOperationManager {
     }
     
     func tweetMessageWithParams(params: NSDictionary?, completion: (tweet: Tweet?, error: NSError?) -> ()) {
+        print("\(params)")
         POST("1.1/statuses/update.json", parameters: params, success: { (operation: AFHTTPRequestOperation!, response: AnyObject!) -> Void in
                 let tweet = Tweet(dictionary: response as! NSDictionary)
                 completion(tweet: tweet, error: nil)
@@ -86,7 +86,6 @@ class TwitterClient: BDBOAuth1RequestOperationManager {
     
     func favoriteMessageWithParams(params: NSDictionary?, completion: (tweet: Tweet?, error: NSError?) -> ()) {
         POST("1.1/favorites/create.json", parameters: params, success: { (operation: AFHTTPRequestOperation!, response: AnyObject!) -> Void in
-            print("response from favorite \(response)")
             let tweet = Tweet(dictionary: response as! NSDictionary)
             completion(tweet: tweet, error: nil)
             }) { (operation: AFHTTPRequestOperation!, error:NSError!) -> Void in

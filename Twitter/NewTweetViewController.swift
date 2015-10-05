@@ -20,12 +20,21 @@ class NewTweetViewController: UIViewController {
     var currentUser = User.currentUser!
     weak var delegate: NewTweetViewControllerDelegate?
     
+    var isReplyTweet = false
+    var tweetToReply: Tweet?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         let avatarUrl = NSURL(string: currentUser.profileImageUrl!)
         userNameLabel.text = currentUser.name
         userScreenNameLabel.text = "@\(currentUser.screenname!)"
         userAvatarImageView.setImageWithURL(avatarUrl!)
+        
+        if isReplyTweet == true {
+            if let tweet = tweetToReply {
+                newTweetTextView.text = "@\(tweet.user!.screenname!)"
+            }
+        }
         
         navigationController?.navigationBar.tintColor = UIColor.whiteColor()
         setupTweetBarButton()
@@ -38,7 +47,10 @@ class NewTweetViewController: UIViewController {
     
     func sendTweet() {
         guard newTweetTextView.text.characters.count <= 0 else {
-            let params = ["status": newTweetTextView.text]
+            var params = ["status": newTweetTextView.text]
+            if isReplyTweet == true {
+                params["in_reply_to_status_id"] = "\(tweetToReply!.id!)"
+            }
             TwitterClient.sharedInstance.tweetMessageWithParams(params) {
                 (tweet: Tweet?, error: NSError?) -> Void in
                 if error != nil {
@@ -51,6 +63,5 @@ class NewTweetViewController: UIViewController {
             return
         }
     }
-
 }
 

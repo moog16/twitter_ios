@@ -79,4 +79,14 @@ class TweetViewController: UIViewController, UITableViewDelegate, UITableViewDat
             }
         }
     }
+    
+    func userActionsCellDelegate(userActionsCell: UserActionsCell, didTapReply tweet: Tweet) {
+        self.performSegueWithIdentifier("replyTweetSegue", sender: nil)
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let vc = segue.destinationViewController as! NewTweetViewController
+        vc.tweetToReply = tweet
+        vc.isReplyTweet = true
+    }
 }

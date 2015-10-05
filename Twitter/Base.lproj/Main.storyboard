@@ -200,7 +200,7 @@
                         <barButtonItem key="rightBarButtonItem" title="New" id="eDN-vh-vy4">
                             <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <connections>
-                                <segue destination="a23-Qb-fIx" kind="show" id="wmH-UV-TBm"/>
+                                <segue destination="a23-Qb-fIx" kind="show" identifier="newTweetSegue" id="wmH-UV-TBm"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -504,6 +504,7 @@
                     </view>
                     <connections>
                         <outlet property="tweetTableView" destination="HkC-86-eAX" id="suJ-on-Jpe"/>
+                        <segue destination="a23-Qb-fIx" kind="show" identifier="replyTweetSegue" id="YiH-BH-jWA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Uxz-w5-idf" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -554,4 +555,7 @@
         <image name="reply" width="16" height="16"/>
         <image name="retweet" width="19" height="16"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="YiH-BH-jWA"/>
+    </inferredMetricsTieBreakers>
 </document>
