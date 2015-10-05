@@ -44,8 +44,8 @@ class NewTweetViewController: UIViewController, UITextViewDelegate {
     }
     
     func setupTweetBarButton() {
-        let tweetButton = UIBarButtonItem(title: "Tweet", style: UIBarButtonItemStyle.Plain, target: nil, action: "nil")
-        tweetCharCount = UIBarButtonItem(title: "\(140 - newTweetTextView.text.characters.count)", style: UIBarButtonItemStyle.Plain, target: nil, action: "sendTweet")
+        let tweetButton = UIBarButtonItem(title: "Tweet", style: UIBarButtonItemStyle.Plain, target: nil, action: "sendTweet")
+        tweetCharCount = UIBarButtonItem(title: "\(140 - newTweetTextView.text.characters.count)", style: UIBarButtonItemStyle.Plain, target: nil, action: "nil")
         tweetCharCount?.tintColor = UIColor.grayColor()
         
         navigationItem.rightBarButtonItems = [tweetButton, tweetCharCount!]
