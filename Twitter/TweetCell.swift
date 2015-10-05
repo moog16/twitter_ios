@@ -8,6 +8,11 @@
 
 import UIKit
 
+@objc protocol TweetCellDelegate {
+    optional func tweetCellDelegate(tweetCell: TweetCell, didTapRetweet tweet: Tweet)
+    optional func tweetCellDelegate(tweetCell: TweetCell, didTapFavorite tweet: Tweet)
+}
+
 class TweetCell: UITableViewCell {
     @IBOutlet weak var retweetedLabel: UILabel!
     @IBOutlet weak var avatarImage: UIImageView!
@@ -22,16 +27,13 @@ class TweetCell: UITableViewCell {
     @IBOutlet weak var wasRetweetedImage: UIImageView!
     
     var isSingleTweetView = false
+    weak var delegate: TweetCellDelegate?
     
     var tweet: Tweet! {
         didSet {
             if let text = tweet.text {
                 messageLabel.text = text
             }
-//            if tweet.retweeted == true {
-//                wasRetweetedImage.hidden = false
-//                retweetedLabel.text = tweet.userRetweet?.name
-//            }
             if let user = tweet.user {
                 let avatarUrl = NSURL(string: user.profileImageUrl!)
                 nameLabel.text = user.name
@@ -49,7 +51,36 @@ class TweetCell: UITableViewCell {
                 if let timeSince = tweet.timeSince {
                     timeLabel.text = "\(timeSince)"
                 }
+                if tweet.retweeted == true {
+                    retweetImageView.image = UIImage(named: "retweet_on")
+                }
+                if tweet.favorited == true {
+                    favoriteImageView.image = UIImage(named: "favorite_on")
+                }
+                
             }
         }
+    }
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        
+        if let retweetImageView = retweetImageView {
+            let tapRetweetRecognizer = UITapGestureRecognizer(target: self, action: "onRetweetTap:")
+            retweetImageView.userInteractionEnabled = true
+            retweetImageView.addGestureRecognizer(tapRetweetRecognizer)
+            
+            let tapFavoriteRecognizer = UITapGestureRecognizer(target: self, action: "onFavoriteTap:")
+            favoriteImageView.userInteractionEnabled = true
+            favoriteImageView.addGestureRecognizer(tapFavoriteRecognizer)
+        }
+    }
+    
+    func onRetweetTap(tapGestureRecognizer: UITapGestureRecognizer) {
+        delegate?.tweetCellDelegate?(self, didTapRetweet: tweet)
+    }
+    
+    func onFavoriteTap(tapGestureRecognizer: UITapGestureRecognizer) {
+        delegate?.tweetCellDelegate?(self, didTapFavorite: tweet)
     }
 }

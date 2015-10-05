@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TweetsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, NewTweetViewControllerDelegate {
+class TweetsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, NewTweetViewControllerDelegate, TweetCellDelegate {
     
     var tweets: [Tweet]?
     var refreshControlTableView: UIRefreshControl!
@@ -33,7 +33,7 @@ class TweetsViewController: UIViewController, UITableViewDataSource, UITableView
     }
     
     func getHomeTimeline(completion:(()->())?) {
-//        TwitterClient.sharedInstance.rateLimitWithParams()
+        TwitterClient.sharedInstance.rateLimitWithParams()
         TwitterClient.sharedInstance.homeTimelineWithParams(nil) { (tweets, error) -> () in
             self.tweets = tweets
             self.tweetsTableView.reloadData()
@@ -63,8 +63,8 @@ class TweetsViewController: UIViewController, UITableViewDataSource, UITableView
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tweetsTableView.dequeueReusableCellWithIdentifier("TweetCell", forIndexPath: indexPath) as! TweetCell
-        
         cell.tweet = tweets?[indexPath.row]
+        cell.delegate = self
         
         return cell
     }
@@ -74,13 +74,37 @@ class TweetsViewController: UIViewController, UITableViewDataSource, UITableView
         self.tweetsTableView.reloadData()
     }
     
+    func tweetCellDelegate(tweetCell: TweetCell, didTapRetweet tweet: Tweet) {
+        if tweet.retweeted == false {
+            TwitterClient.sharedInstance.retweetMessageWithParams(nil, tweetId: tweet.id!) { (tweet, error) -> () in
+                if error != nil {
+                   print("error from retweeting \(error)")
+                } else {
+                    print("retweet count \(tweet?.retweetCount)")
+                    tweetCell.tweet = tweet
+                }
+            }
+        }
+    }
+    
+    func tweetCellDelegate(tweetCell: TweetCell, didTapFavorite tweet: Tweet) {
+        if tweet.favorited == false {
+            let parameters = ["id": tweet.id!]
+            TwitterClient.sharedInstance.favoriteMessageWithParams(parameters) { (tweet, error) -> () in
+                if error != nil {
+                    print("error from favoriting \(error)")
+                } else {
+                    print("favorite count \(tweet?.favoriteCount)")
+                    tweetCell.tweet = tweet
+                }
+            }
+        }
+    }
+    
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if sender is TweetCell {
             let cell = sender as! TweetCell
             let tweetViewController = segue.destinationViewController as! TweetViewController
-//            let indexPath = tweetsTableView.indexPathForCell(cell)
-//            let tweetCell = tweetsTableView.cellForRowAtIndexPath(indexPath!) as TweetCell
-            
             tweetViewController.tweet =  cell.tweet
         } else {
             let newTweetController = segue.destinationViewController as! NewTweetViewController

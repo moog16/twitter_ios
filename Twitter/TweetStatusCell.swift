@@ -14,6 +14,7 @@ class TweetStatusCell: UITableViewCell {
     @IBOutlet weak var favoritedCountLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
+        
     }
 
     override func setSelected(selected: Bool, animated: Bool) {

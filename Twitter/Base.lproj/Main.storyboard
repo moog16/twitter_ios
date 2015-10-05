@@ -320,7 +320,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@TheMichaelMoran" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sP6-1n-E9P">
-                                                    <rect key="frame" x="165" y="28.5" width="121" height="16"/>
+                                                    <rect key="frame" x="165" y="28" width="121" height="16"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="121" id="ebQ-kv-brZ"/>
                                                     </constraints>
@@ -329,7 +329,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Did you know you can tell if someone is a programmer simply by saying the word &quot;timezones&quot; and seeing if they cringe?" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="phR-hw-3g6">
-                                                    <rect key="frame" x="62" y="45" width="530" height="31.5"/>
+                                                    <rect key="frame" x="62" y="45" width="530" height="34"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -341,6 +341,15 @@
                                                         <constraint firstAttribute="height" constant="50" id="ydY-rt-n6T"/>
                                                     </constraints>
                                                 </imageView>
+                                                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="waffletchnlgy retweeted" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ssL-Uv-9mh">
+                                                    <rect key="frame" x="62" y="5" width="147" height="16"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="147" id="HCg-lY-q1e"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <color key="textColor" red="0.63144059990000001" green="0.63144059990000001" blue="0.63144059990000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                                 <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="retweet" translatesAutoresizingMaskIntoConstraints="NO" id="G7e-l1-cjj">
                                                     <rect key="frame" x="45" y="8" width="13" height="13"/>
                                                     <constraints>
@@ -349,16 +358,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1/29/15 08:32 PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hKH-zU-qUp">
-                                                    <rect key="frame" x="8" y="84" width="107.5" height="16"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                    <color key="textColor" red="0.63144059990000001" green="0.63144059990000001" blue="0.63144059990000001" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="waffletchnlgy retweeted" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ssL-Uv-9mh">
-                                                    <rect key="frame" x="62" y="5" width="147" height="16"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="147" id="HCg-lY-q1e"/>
-                                                    </constraints>
+                                                    <rect key="frame" x="8" y="87" width="107.5" height="13"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                     <color key="textColor" red="0.63144059990000001" green="0.63144059990000001" blue="0.63144059990000001" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -380,6 +380,7 @@
                                                 <constraint firstItem="G7e-l1-cjj" firstAttribute="top" secondItem="hxH-Nw-oAO" secondAttribute="top" constant="8" id="di0-D6-e5c"/>
                                                 <constraint firstItem="RqX-Lr-0aI" firstAttribute="top" relation="greaterThanOrEqual" secondItem="hxH-Nw-oAO" secondAttribute="top" constant="8" id="eBs-m8-4ag"/>
                                                 <constraint firstItem="gco-iT-YRs" firstAttribute="top" secondItem="RqX-Lr-0aI" secondAttribute="top" id="fhY-Za-9Su"/>
+                                                <constraint firstItem="hKH-zU-qUp" firstAttribute="top" relation="greaterThanOrEqual" secondItem="RqX-Lr-0aI" secondAttribute="bottom" constant="8" id="jDr-KE-uhR"/>
                                                 <constraint firstItem="hKH-zU-qUp" firstAttribute="top" secondItem="phR-hw-3g6" secondAttribute="bottom" constant="8" id="jFB-ye-EMa"/>
                                                 <constraint firstItem="sP6-1n-E9P" firstAttribute="leading" secondItem="gco-iT-YRs" secondAttribute="trailing" constant="8" id="klU-T7-X9p"/>
                                                 <constraint firstItem="gco-iT-YRs" firstAttribute="leading" secondItem="ssL-Uv-9mh" secondAttribute="leading" id="nmT-s2-juW"/>
@@ -405,9 +406,9 @@
                                             <outlet property="fullTimeLabel" destination="hKH-zU-qUp" id="h3Z-LS-fAi"/>
                                             <outlet property="messageLabel" destination="phR-hw-3g6" id="iQV-FZ-V10"/>
                                             <outlet property="nameLabel" destination="gco-iT-YRs" id="4pW-1z-1g3"/>
-                                            <outlet property="retweetImageView" destination="G7e-l1-cjj" id="G2c-gy-5sS"/>
                                             <outlet property="retweetedLabel" destination="ssL-Uv-9mh" id="Bak-W5-1Ju"/>
                                             <outlet property="usernameLabel" destination="sP6-1n-E9P" id="O32-qc-Rln"/>
+                                            <outlet property="wasRetweetedImage" destination="G7e-l1-cjj" id="gjJ-QW-oyc"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TweetStatusCell" id="xol-NE-4Vm" customClass="TweetStatusCell" customModule="Twitter" customModuleProvider="target">

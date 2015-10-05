@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TweetViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class TweetViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UserActionsCellDelegate {
     
     var tweet: Tweet?
 
@@ -36,6 +36,7 @@ class TweetViewController: UIViewController, UITableViewDelegate, UITableViewDat
         default:
             let cell = tweetTableView.dequeueReusableCellWithIdentifier("UserActionsCell", forIndexPath: indexPath) as! UserActionsCell
             cell.tweet = tweet
+            cell.delegate = self
             return cell
         }
     }
@@ -43,15 +44,39 @@ class TweetViewController: UIViewController, UITableViewDelegate, UITableViewDat
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 3
     }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        tableView.deselectRowAtIndexPath(indexPath, animated: true)
     }
-    */
-
+    
+    func updateUserStatusesAndActions(tweet: Tweet, userActionsCell: UserActionsCell) {
+        userActionsCell.tweet = tweet
+        let statusCell = self.tweetTableView.cellForRowAtIndexPath(NSIndexPath(forRow: 1, inSection: 0)) as? TweetStatusCell
+        statusCell!.tweet = tweet
+    }
+    
+    func userActionsCellDelegate(userActionsCell: UserActionsCell, didTapRetweet tweet: Tweet) {
+        if tweet.retweeted == false {
+            TwitterClient.sharedInstance.retweetMessageWithParams(nil, tweetId: tweet.id!) { (tweet, error) -> () in
+                if error != nil {
+                    print("error from retweeting \(error)")
+                } else {
+                    self.updateUserStatusesAndActions(tweet!, userActionsCell: userActionsCell)
+                }
+            }
+        }
+    }
+    
+    func userActionsCellDelegate(userActionsCell: UserActionsCell, didTapFavorite tweet: Tweet) {
+        if tweet.favorited == false {
+            let parameters = ["id": tweet.id!]
+            TwitterClient.sharedInstance.favoriteMessageWithParams(parameters) { (tweet, error) -> () in
+                if error != nil {
+                    print("error from favoriting \(error)")
+                } else {
+                    self.updateUserStatusesAndActions(tweet!, userActionsCell: userActionsCell)
+                }
+            }
+        }
+    }
 }

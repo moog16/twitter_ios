@@ -8,33 +8,48 @@
 
 import UIKit
 
+@objc protocol UserActionsCellDelegate {
+    optional func userActionsCellDelegate(userActionsCell: UserActionsCell, didTapRetweet tweet: Tweet)
+    optional func userActionsCellDelegate(userActionsCell: UserActionsCell, didTapFavorite tweet: Tweet)
+}
+
 class UserActionsCell: UITableViewCell {
 
     @IBOutlet weak var replyImageView: UIImageView!
     @IBOutlet weak var favoriteImageView: UIImageView!
     @IBOutlet weak var retweetImageView: UIImageView!
     
+    weak var delegate: UserActionsCellDelegate?
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+        
+        let tapRetweetRecognizer = UITapGestureRecognizer(target: self, action: "onRetweetTap:")
+        retweetImageView.userInteractionEnabled = true
+        retweetImageView.addGestureRecognizer(tapRetweetRecognizer)
+        
+        let tapFavoriteRecognizer = UITapGestureRecognizer(target: self, action: "onFavoriteTap:")
+        favoriteImageView.userInteractionEnabled = true
+        favoriteImageView.addGestureRecognizer(tapFavoriteRecognizer)
     }
     
     var tweet: Tweet! {
         didSet {
             if tweet.favorited == true {
-                favoriteImageView.image = UIImage(contentsOfFile: "favorite_on")
+                favoriteImageView.image = UIImage(named: "favorite_on")
             }
             if tweet.retweeted == true {
-                retweetImageView.image = UIImage(contentsOfFile: "retweet_on")
+                retweetImageView.image = UIImage(named: "retweet_on")
             }
         }
     }
-
+    
+    func onRetweetTap(tapGestureRecognizer: UITapGestureRecognizer) {
+        delegate?.userActionsCellDelegate?(self, didTapRetweet: tweet)
+    }
+    
+    func onFavoriteTap(tapGestureRecognizer: UITapGestureRecognizer) {
+        delegate?.userActionsCellDelegate?(self, didTapFavorite: tweet)
+    }
 
 }
